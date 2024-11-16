@@ -1,0 +1,1605 @@
+{
+  "nodes": [
+    {"id": "Types","name":"Clothes Types","img":"imgs/types.png","val": 4},
+    {"id": "Dress","name":"Dress","img": "imgs/Types/Dress.jpg","val":2},
+    {"id": "Hoodie","name":"Hoodie","img": "imgs/Types/Hoodie.jpg","val":2},
+    {"id": "Jacket","name":"Jacket","img": "imgs/Types/Jacket.jpg","val":2},
+    {"id": "Leggings","name":"Leggings","img": "imgs/Types/Leggings.jpg","val":2},
+    {"id": "Longsleeve","name":"Long sleeve","img": "imgs/Types/Long sleeve.jpg","val":2},
+    {"id": "Pants","name":"Pants","img": "imgs/Types/Pants.jpg","val":2},
+    {"id": "Skirt","name":"Skirt","img": "imgs/Types/Skirt.jpg","val":2},
+    {"id": "Socks","name":"Socks","img": "imgs/Types/Socks.jpg","val":2},
+    {"id": "Swimwear","name":"Swimwear","img": "imgs/Types/Swimwear.jpg","val":2},
+    {"id": "T-shirt","name":"T-shirt","img": "imgs/Types/T-shirt.jpg","val":2},
+    {"id": "Tanktop","name":"Tank top","img": "imgs/Types/Tank top.jpg","val":2},
+    {"id": "Concepts","name":"Concepts","img":"imgs/concepts.jpg","val": 4},
+    {"id": "Ancient", "name":"Ancient","img":"imgs/Concepts/Ancient.jpg","val":3},
+    {"id": "Animals", "name":"Animals","img":"imgs/Concepts/Animals.jpg","val":3},
+    {"id": "Armor", "name":"Armor","img":"imgs/Concepts/Armor.jpg","val":3},
+    {"id": "Architecture", "name":"Architecture","img":"imgs/Concepts/Architecture.jpg","val":3},
+    {"id": "Asphalt", "name":"Asphalt","img":"imgs/Concepts/Asphalt.jpg","val":3},
+    {"id": "Batwings", "name":"Bat wings","img":"imgs/Concepts/Bat wings.jpg","val":3},
+    {"id": "Biomechanical", "name":"Biomechanical","img":"imgs/Concepts/Biomechanical.jpg","val":3},
+    {"id": "Bismuth", "name":"Bismuth","img":"imgs/Concepts/Bismuth.jpg","val":3},
+    {"id": "Bodyofrobot", "name":"Body of robot","img":"imgs/Concepts/Body of robot.jpg","val":3},
+    {"id": "Bones", "name":"Bones","img":"imgs/Concepts/Bones.jpg","val":3},
+    {"id": "Brass", "name":"Brass","img":"imgs/Concepts/Brass.jpg","val":3},
+    {"id": "Brokenglass", "name":"Broken glass","img":"imgs/Concepts/Broken glass.jpg","val":3},
+    {"id": "Carving", "name":"Carving","img":"imgs/Concepts/Carving.jpg","val":3},
+    {"id": "Ceramics", "name":"Ceramics","img":"imgs/Concepts/Ceramics.jpg","val":3},
+    {"id": "Clay", "name":"Clay","img":"imgs/Concepts/Clay.jpg","val":3},
+    {"id": "Cloud", "name":"Cloud","img":"imgs/Concepts/Cloud.jpg","val":3},
+    {"id": "Concrete", "name":"Concrete","img":"imgs/Concepts/Concrete.jpg","val":3},
+    {"id": "Cortensteel", "name":"Corten steel","img":"imgs/Concepts/Corten steel.jpg","val":3},
+    {"id": "Cortexsteel", "name":"Cortex steel","img":"imgs/Concepts/Cortex steel.jpg","val":3},
+    {"id": "CPU", "name":"CPU","img":"imgs/Concepts/CPU.jpg","val":3},
+    {"id": "Crudeoil", "name":"Crude oil","img":"imgs/Concepts/Crude oil.jpg","val":3},
+    {"id": "Crystal", "name":"Crystal","img":"imgs/Concepts/Crystal.jpg","val":3},
+    {"id": "Cybersuit", "name":"Cyber suit","img":"imgs/Concepts/Cyber suit.jpg","val":3},
+    {"id": "Cyberpunk", "name":"Cyberpunk","img":"imgs/Concepts/Cyberpunk.jpg","val":3},
+    {"id": "Dimond", "name":"Dimond","img":"imgs/Concepts/Dimond.jpg","val":3},
+    {"id": "Elementals", "name":"Elementals","img":"imgs/Concepts/Elementals.jpg","val":3},
+    {"id": "Emptiness", "name":"Emptiness","img":"imgs/Concepts/Emptiness.jpg","val":3},
+    {"id": "Etching", "name":"Etching","img":"imgs/Concepts/Etching.jpg","val":3},
+    {"id": "Etchedmetal", "name":"Etched metal","img":"imgs/Concepts/Etched metal.jpg","val":3},
+    {"id": "Feather", "name":"Feather","img":"imgs/Concepts/Feather.jpg","val":3},
+    {"id": "Fog", "name":"Fog","img":"imgs/Concepts/Fog.jpg","val":3},
+    {"id": "Foil", "name":"Foil","img":"imgs/Concepts/Foil.jpg","val":3},
+    {"id": "Gas", "name":"Gas","img":"imgs/Concepts/Gas.jpg","val":3},
+    {"id": "Geometry", "name":"Geometry","img":"imgs/Concepts/Geometry.jpg","val":3},
+    {"id": "Glass", "name":"Glass","img":"imgs/Concepts/Glass.jpg","val":3},
+    {"id": "Glow", "name":"Glow","img":"imgs/Concepts/Glow.jpg","val":3},
+    {"id": "Glue", "name":"Glue","img":"imgs/Concepts/Glue.jpg","val":3},
+    {"id": "Gold", "name":"Gold","img":"imgs/Concepts/Gold.jpg","val":3},
+    {"id": "Graphic", "name":"Graphic","img":"imgs/Concepts/Graphic.jpg","val":3},
+    {"id": "Handicraft", "name":"Handicraft","img":"imgs/Concepts/Handicraft.jpg","val":3},
+    {"id": "Ice", "name":"Ice","img":"imgs/Concepts/Ice.jpg","val":3},
+    {"id": "Illusion", "name":"Illusion","img":"imgs/Concepts/Illusion.jpg","val":3},
+    {"id": "Insects", "name":"Insects","img":"imgs/Concepts/Insects.jpg","val":3},
+    {"id": "Jewelry", "name":"Jewelry","img":"imgs/Concepts/Jewelry.jpg","val":3},
+    {"id": "Lavalamp", "name":"Lava lamp","img":"imgs/Concepts/Lava lamp.jpg","val":3},
+    {"id": "Lava", "name":"Lava","img":"imgs/Concepts/Lava.jpg","val":3},
+    {"id": "Leaf", "name":"Leaf","img":"imgs/Concepts/Leaf.jpg","val":3},
+    {"id": "Liquid", "name":"Liquid","img":"imgs/Concepts/Liquid.jpg","val":3},
+    {"id": "Lowpoly", "name":"Low poly","img":"imgs/Concepts/Low poly.jpg","val":3},
+    {"id": "Material", "name":"Material","img":"imgs/Concepts/Material.jpg","val":3},
+    {"id": "Mist", "name":"Mist","img":"imgs/Concepts/Mist.jpg","val":3},
+    {"id": "Motherboard", "name":"Motherboard","img":"imgs/Concepts/Motherboard.jpg","val":3},
+    {"id": "Neuron", "name":"Neuron","img":"imgs/Concepts/Neuron.jpg","val":3},
+    {"id": "Paper", "name":"Paper","img":"imgs/Concepts/Paper.jpg","val":3},
+    {"id": "Partialpressuresuit", "name":"Partial pressure suit","img":"imgs/Concepts/Partial pressure suit.jpg","val":3},
+    {"id": "Pixelated", "name":"Pixelated","img":"imgs/Concepts/Pixelated.jpg","val":3},
+    {"id": "Plants", "name":"Plants","img":"imgs/Concepts/Plants.jpg","val":3},
+    {"id": "Quilling", "name":"Quilling","img":"imgs/Concepts/Quilling.jpg","val":3},
+    {"id": "Rope", "name":"Rope","img":"imgs/Concepts/Rope.jpg","val":3},
+    {"id": "Sand", "name":"Sand","img":"imgs/Concepts/Sand.jpg","val":3},
+    {"id": "Skeleton", "name":"Skeleton","img":"imgs/Concepts/Skeleton.jpg","val":3},
+    {"id": "Stone", "name":"Stone","img":"imgs/Concepts/Stone.jpg","val":3},
+    {"id": "Tiles", "name":"Tiles","img":"imgs/Concepts/Tiles.jpg","val":3},
+    {"id": "Tutu", "name":"Tutu","img":"imgs/Concepts/Tutu.jpg","val":3},
+    {"id": "Wood", "name":"Wood","img":"imgs/Concepts/Wood.jpg","val":3},
+    {"id": "Items", "name": "Items", "img": "imgs/items.jpg","val": 4},
+    {"id": "AncientHoodie","name": "Ancient hoodie","img": "imgs/Items/AncientHoodie.jpg","val": 2},
+    {"id": "AncientDress","name": "Ancient dress","img": "imgs/Items/AncientDress.jpg","val": 2},
+    {
+      "id": "Pastedimage20230823225513",
+      "name": "Pasted image 20230823225513",
+      "img": "imgs/Designs/Pasted image 20230823225513.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225513.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225516",
+      "name": "Pasted image 20230823225516",
+      "img": "imgs/Designs/Pasted image 20230823225516.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225516.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225520",
+      "name": "Pasted image 20230823225520",
+      "img": "imgs/Designs/Pasted image 20230823225520.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225520.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225524",
+      "name": "Pasted image 20230823225524",
+      "img": "imgs/Designs/Pasted image 20230823225524.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225524.jpg",
+      "val": 2
+    },
+    {
+      "id": "Angelhoodie",
+      "name": "Angel hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823223712",
+      "name": "Pasted image 20230823223712",
+      "img": "imgs/Designs/Pasted image 20230823223712.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823223712.png",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823223726",
+      "name": "Pasted image 20230823223726",
+      "img": "imgs/Designs/Pasted image 20230823223726.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823223726.png",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823223737",
+      "name": "Pasted image 20230823223737",
+      "img": "imgs/Designs/Pasted image 20230823223737.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823223737.png",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823223746",
+      "name": "Pasted image 20230823223746",
+      "img": "imgs/Designs/Pasted image 20230823223746.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823223746.png",
+      "val": 2
+    },
+    {
+      "id": "Armorhoodie",
+      "name": "Armor hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224716",
+      "name": "Pasted image 20230823224716",
+      "img": "imgs/Designs/Pasted image 20230823224716.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224716.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224722",
+      "name": "Pasted image 20230823224722",
+      "img": "imgs/Designs/Pasted image 20230823224722.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224722.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224725",
+      "name": "Pasted image 20230823224725",
+      "img": "imgs/Designs/Pasted image 20230823224725.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224725.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224730",
+      "name": "Pasted image 20230823224730",
+      "img": "imgs/Designs/Pasted image 20230823224730.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224730.jpg",
+      "val": 2
+    },
+    {
+      "id": "Bananahoodie",
+      "name": "Banana hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824144134",
+      "name": "Pasted image 20230824144134",
+      "img": "imgs/Designs/Pasted image 20230824144134.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824144134.jpg",
+      "val": 2
+    },
+    {
+      "id": "Biomechanicalhoodie",
+      "name": "Biomechanical hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823223857",
+      "name": "Pasted image 20230823223857",
+      "img": "imgs/Designs/Pasted image 20230823223857.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823223857.png",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823223906",
+      "name": "Pasted image 20230823223906",
+      "img": "imgs/Designs/Pasted image 20230823223906.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823223906.png",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823223916",
+      "name": "Pasted image 20230823223916",
+      "img": "imgs/Designs/Pasted image 20230823223916.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823223916.png",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823223924",
+      "name": "Pasted image 20230823223924",
+      "img": "imgs/Designs/Pasted image 20230823223924.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823223924.png",
+      "val": 2
+    },
+    {
+      "id": "Biomechanicallichenhoodie",
+      "name": "Biomechanical lichen hoodie",
+      "val": 2
+    },
+    {
+      "id": "lichen_hoodie",
+      "name": "lichen_hoodie",
+      "img": "imgs/Designs/lichen_hoodie.png",
+      "thmb": "imgs/Designs/Thumbnails/lichen_hoodie.png",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823223951",
+      "name": "Pasted image 20230823223951",
+      "img": "imgs/Designs/Pasted image 20230823223951.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823223951.png",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224000",
+      "name": "Pasted image 20230823224000",
+      "img": "imgs/Designs/Pasted image 20230823224000.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224000.png",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224010",
+      "name": "Pasted image 20230823224010",
+      "img": "imgs/Designs/Pasted image 20230823224010.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224010.png",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224017",
+      "name": "Pasted image 20230823224017",
+      "img": "imgs/Designs/Pasted image 20230823224017.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224017.png",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224028",
+      "name": "Pasted image 20230823224028",
+      "img": "imgs/Designs/Pasted image 20230823224028.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224028.png",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224039",
+      "name": "Pasted image 20230823224039",
+      "img": "imgs/Designs/Pasted image 20230823224039.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224039.png",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224047",
+      "name": "Pasted image 20230823224047",
+      "img": "imgs/Designs/Pasted image 20230823224047.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224047.png",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224056",
+      "name": "Pasted image 20230823224056",
+      "img": "imgs/Designs/Pasted image 20230823224056.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224056.png",
+      "val": 2
+    },
+    {
+      "id": "Biomechanicalt-shirt",
+      "name": "Biomechanical t-shirt",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823012527",
+      "name": "Pasted image 20230823012527",
+      "img": "imgs/Designs/Pasted image 20230823012527.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823012527.png",
+      "val": 2
+    },
+    {
+      "id": "Cloudhoodie",
+      "name": "Cloud hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824125328",
+      "name": "Pasted image 20230824125328",
+      "img": "imgs/Designs/Pasted image 20230824125328.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824125328.jpg",
+      "val": 2
+    },
+    {
+      "id": "Concretet-shirt",
+      "name": "Concrete t-shirt",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230822235840",
+      "name": "Pasted image 20230822235840",
+      "img": "imgs/Designs/Pasted image 20230822235840.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230822235840.png",
+      "val": 2
+    },
+    {
+      "id": "Emptiness",
+      "name": "Emptiness",
+      "val": 2
+    },
+    {
+      "id": "Etchedwood",
+      "name": "Etched wood",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824143751",
+      "name": "Pasted image 20230824143751",
+      "img": "imgs/Designs/Pasted image 20230824143751.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824143751.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824143755",
+      "name": "Pasted image 20230824143755",
+      "img": "imgs/Designs/Pasted image 20230824143755.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824143755.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824143758",
+      "name": "Pasted image 20230824143758",
+      "img": "imgs/Designs/Pasted image 20230824143758.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824143758.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824143802.jpg",
+      "name": "Pasted image 20230824143802.jpg",
+      "img": "imgs/Designs/Pasted image 20230824143802.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824143802.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824143823",
+      "name": "Pasted image 20230824143823",
+      "img": "imgs/Designs/Pasted image 20230824143823.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824143823.jpg",
+      "val": 2
+    },
+    {
+      "id": "Fishhoodie",
+      "name": "Fish hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824144727",
+      "name": "Pasted image 20230824144727",
+      "img": "imgs/Designs/Pasted image 20230824144727.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824144727.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824144731",
+      "name": "Pasted image 20230824144731",
+      "img": "imgs/Designs/Pasted image 20230824144731.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824144731.jpg",
+      "val": 2
+    },
+    {
+      "id": "Icehoodie",
+      "name": "Ice hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824124948",
+      "name": "Pasted image 20230824124948",
+      "img": "imgs/Designs/Pasted image 20230824124948.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824124948.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824124951",
+      "name": "Pasted image 20230824124951",
+      "img": "imgs/Designs/Pasted image 20230824124951.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824124951.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824125004",
+      "name": "Pasted image 20230824125004",
+      "img": "imgs/Designs/Pasted image 20230824125004.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824125004.jpg",
+      "val": 2
+    },
+    {
+      "id": "Lavahoodie",
+      "name": "Lava hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824125238",
+      "name": "Pasted image 20230824125238",
+      "img": "imgs/Designs/Pasted image 20230824125238.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824125238.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824125242",
+      "name": "Pasted image 20230824125242",
+      "img": "imgs/Designs/Pasted image 20230824125242.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824125242.jpg",
+      "val": 2
+    },
+    {
+      "id": "Lowpolyhoodie",
+      "name": "Low poly hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824144520",
+      "name": "Pasted image 20230824144520",
+      "img": "imgs/Designs/Pasted image 20230824144520.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824144520.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824144523",
+      "name": "Pasted image 20230824144523",
+      "img": "imgs/Designs/Pasted image 20230824144523.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824144523.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824144526",
+      "name": "Pasted image 20230824144526",
+      "img": "imgs/Designs/Pasted image 20230824144526.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824144526.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824144530",
+      "name": "Pasted image 20230824144530",
+      "img": "imgs/Designs/Pasted image 20230824144530.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824144530.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824144534",
+      "name": "Pasted image 20230824144534",
+      "img": "imgs/Designs/Pasted image 20230824144534.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824144534.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824144538",
+      "name": "Pasted image 20230824144538",
+      "img": "imgs/Designs/Pasted image 20230824144538.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824144538.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824144542",
+      "name": "Pasted image 20230824144542",
+      "img": "imgs/Designs/Pasted image 20230824144542.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824144542.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824144546",
+      "name": "Pasted image 20230824144546",
+      "img": "imgs/Designs/Pasted image 20230824144546.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824144546.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824144549",
+      "name": "Pasted image 20230824144549",
+      "img": "imgs/Designs/Pasted image 20230824144549.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824144549.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824144552",
+      "name": "Pasted image 20230824144552",
+      "img": "imgs/Designs/Pasted image 20230824144552.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824144552.jpg",
+      "val": 2
+    },
+    {
+      "id": "Mushroomhoodie",
+      "name": "Mushroom hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824144023",
+      "name": "Pasted image 20230824144023",
+      "img": "imgs/Designs/Pasted image 20230824144023.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824144023.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824144028",
+      "name": "Pasted image 20230824144028",
+      "img": "imgs/Designs/Pasted image 20230824144028.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824144028.jpg",
+      "val": 2
+    },
+    {
+      "id": "Paperhoodie",
+      "name": "Paper hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824125357",
+      "name": "Pasted image 20230824125357",
+      "img": "imgs/Designs/Pasted image 20230824125357.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824125357.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824125401",
+      "name": "Pasted image 20230824125401",
+      "img": "imgs/Designs/Pasted image 20230824125401.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824125401.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824125406",
+      "name": "Pasted image 20230824125406",
+      "img": "imgs/Designs/Pasted image 20230824125406.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824125406.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824125410",
+      "name": "Pasted image 20230824125410",
+      "img": "imgs/Designs/Pasted image 20230824125410.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824125410.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824125419",
+      "name": "Pasted image 20230824125419",
+      "img": "imgs/Designs/Pasted image 20230824125419.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824125419.jpg",
+      "val": 2
+    },
+    {
+      "id": "Plantshoodie",
+      "name": "Plants hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824143851",
+      "name": "Pasted image 20230824143851",
+      "img": "imgs/Designs/Pasted image 20230824143851.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824143851.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824143855",
+      "name": "Pasted image 20230824143855",
+      "img": "imgs/Designs/Pasted image 20230824143855.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824143855.jpg",
+      "val": 2
+    },
+    {
+      "id": "Quillinghoodie",
+      "name": "Quilling hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225749",
+      "name": "Pasted image 20230823225749",
+      "img": "imgs/Designs/Pasted image 20230823225749.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225749.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225752",
+      "name": "Pasted image 20230823225752",
+      "img": "imgs/Designs/Pasted image 20230823225752.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225752.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225755",
+      "name": "Pasted image 20230823225755",
+      "img": "imgs/Designs/Pasted image 20230823225755.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225755.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225802",
+      "name": "Pasted image 20230823225802",
+      "img": "imgs/Designs/Pasted image 20230823225802.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225802.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225809",
+      "name": "Pasted image 20230823225809",
+      "img": "imgs/Designs/Pasted image 20230823225809.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225809.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225819",
+      "name": "Pasted image 20230823225819",
+      "img": "imgs/Designs/Pasted image 20230823225819.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225819.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225823",
+      "name": "Pasted image 20230823225823",
+      "img": "imgs/Designs/Pasted image 20230823225823.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225823.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225827",
+      "name": "Pasted image 20230823225827",
+      "img": "imgs/Designs/Pasted image 20230823225827.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225827.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225832",
+      "name": "Pasted image 20230823225832",
+      "img": "imgs/Designs/Pasted image 20230823225832.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225832.jpg",
+      "val": 2
+    },
+    {
+      "id": "Rabbithoodie",
+      "name": "Rabbit hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824144921",
+      "name": "Pasted image 20230824144921",
+      "img": "imgs/Designs/Pasted image 20230824144921.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824144921.jpg",
+      "val": 2
+    },
+    {
+      "id": "Ropehoodie",
+      "name": "Rope hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824143546",
+      "name": "Pasted image 20230824143546",
+      "img": "imgs/Designs/Pasted image 20230824143546.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824143546.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824143550",
+      "name": "Pasted image 20230824143550",
+      "img": "imgs/Designs/Pasted image 20230824143550.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824143550.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824143618",
+      "name": "Pasted image 20230824143618",
+      "img": "imgs/Designs/Pasted image 20230824143618.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824143618.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824143623",
+      "name": "Pasted image 20230824143623",
+      "img": "imgs/Designs/Pasted image 20230824143623.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824143623.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824143628",
+      "name": "Pasted image 20230824143628",
+      "img": "imgs/Designs/Pasted image 20230824143628.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824143628.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824143632",
+      "name": "Pasted image 20230824143632",
+      "img": "imgs/Designs/Pasted image 20230824143632.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824143632.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824143635",
+      "name": "Pasted image 20230824143635",
+      "img": "imgs/Designs/Pasted image 20230824143635.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824143635.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824143640",
+      "name": "Pasted image 20230824143640",
+      "img": "imgs/Designs/Pasted image 20230824143640.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824143640.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824143646",
+      "name": "Pasted image 20230824143646",
+      "img": "imgs/Designs/Pasted image 20230824143646.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824143646.jpg",
+      "val": 2
+    },
+    {
+      "id": "Sandhoodie",
+      "name": "Sand hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824125304",
+      "name": "Pasted image 20230824125304",
+      "img": "imgs/Designs/Pasted image 20230824125304.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824125304.jpg",
+      "val": 2
+    },
+    {
+      "id": "Sheephoodie",
+      "name": "Sheep hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824144837",
+      "name": "Pasted image 20230824144837",
+      "img": "imgs/Designs/Pasted image 20230824144837.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824144837.jpg",
+      "val": 2
+    },
+    {
+      "id": "Skeletonhoodie",
+      "name": "Skeleton hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225210",
+      "name": "Pasted image 20230823225210",
+      "img": "imgs/Designs/Pasted image 20230823225210.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225210.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225215",
+      "name": "Pasted image 20230823225215",
+      "img": "imgs/Designs/Pasted image 20230823225215.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225215.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225221",
+      "name": "Pasted image 20230823225221",
+      "img": "imgs/Designs/Pasted image 20230823225221.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225221.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225226",
+      "name": "Pasted image 20230823225226",
+      "img": "imgs/Designs/Pasted image 20230823225226.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225226.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225231",
+      "name": "Pasted image 20230823225231",
+      "img": "imgs/Designs/Pasted image 20230823225231.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225231.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225235",
+      "name": "Pasted image 20230823225235",
+      "img": "imgs/Designs/Pasted image 20230823225235.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225235.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225251.jpg",
+      "name": "Pasted image 20230823225251.jpg",
+      "img": "imgs/Designs/Pasted image 20230823225251.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225251.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225318",
+      "name": "Pasted image 20230823225318",
+      "img": "imgs/Designs/Pasted image 20230823225318.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225318.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225324",
+      "name": "Pasted image 20230823225324",
+      "img": "imgs/Designs/Pasted image 20230823225324.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225324.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225329",
+      "name": "Pasted image 20230823225329",
+      "img": "imgs/Designs/Pasted image 20230823225329.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225329.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225333",
+      "name": "Pasted image 20230823225333",
+      "img": "imgs/Designs/Pasted image 20230823225333.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225333.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225337",
+      "name": "Pasted image 20230823225337",
+      "img": "imgs/Designs/Pasted image 20230823225337.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225337.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823225341",
+      "name": "Pasted image 20230823225341",
+      "img": "imgs/Designs/Pasted image 20230823225341.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823225341.jpg",
+      "val": 2
+    },
+    {
+      "id": "Spikedhoodie",
+      "name": "Spiked hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824125538",
+      "name": "Pasted image 20230824125538",
+      "img": "imgs/Designs/Pasted image 20230824125538.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824125538.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824125541",
+      "name": "Pasted image 20230824125541",
+      "img": "imgs/Designs/Pasted image 20230824125541.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824125541.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824125544",
+      "name": "Pasted image 20230824125544",
+      "img": "imgs/Designs/Pasted image 20230824125544.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824125544.jpg",
+      "val": 2
+    },
+    {
+      "id": "Stonehoodie",
+      "name": "Stone hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824125150",
+      "name": "Pasted image 20230824125150",
+      "img": "imgs/Designs/Pasted image 20230824125150.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824125150.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230824125158",
+      "name": "Pasted image 20230824125158",
+      "img": "imgs/Designs/Pasted image 20230824125158.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230824125158.jpg",
+      "val": 2
+    },
+    {
+      "id": "Tileshoodie",
+      "name": "Tiles hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224535",
+      "name": "Pasted image 20230823224535",
+      "img": "imgs/Designs/Pasted image 20230823224535.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224535.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224541",
+      "name": "Pasted image 20230823224541",
+      "img": "imgs/Designs/Pasted image 20230823224541.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224541.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224546",
+      "name": "Pasted image 20230823224546",
+      "img": "imgs/Designs/Pasted image 20230823224546.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224546.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224550",
+      "name": "Pasted image 20230823224550",
+      "img": "imgs/Designs/Pasted image 20230823224550.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224550.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224554",
+      "name": "Pasted image 20230823224554",
+      "img": "imgs/Designs/Pasted image 20230823224554.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224554.jpg",
+      "val": 2
+    },
+    {
+      "id": "Tutuhoodie",
+      "name": "Tutu hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224208",
+      "name": "Pasted image 20230823224208",
+      "img": "imgs/Designs/Pasted image 20230823224208.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224208.png",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224215",
+      "name": "Pasted image 20230823224215",
+      "img": "imgs/Designs/Pasted image 20230823224215.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224215.jpg",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230823224221",
+      "name": "Pasted image 20230823224221",
+      "img": "imgs/Designs/Pasted image 20230823224221.jpg",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230823224221.jpg",
+      "val": 2
+    },
+    {
+      "id": "Woodcarvinghoodie",
+      "name": "Wood carving hoodie",
+      "val": 2
+    },
+    {
+      "id": "Pastedimage20230822184739",
+      "name": "Pasted image 20230822184739",
+      "img": "imgs/Designs/Pasted image 20230822184739.png",
+      "thmb": "imgs/Designs/Thumbnails/Pasted image 20230822184739.png",
+      "val": 2
+    }
+  ],
+  "links": [
+    {"source": "Types","target": "Hoodie","value": 1},
+    {"source": "Types","target": "Dress","value": 1},
+    {"source": "Types","target": "Jacket","value": 1},
+    {"source": "Types","target": "Leggings","value": 1},
+    {"source": "Types","target": "Longsleeve","value": 1},
+    {"source": "Types","target": "Pants","value": 1},
+    {"source": "Types","target": "Skirt","value": 1},
+    {"source": "Types","target": "Socks","value": 1},
+    {"source": "Types","target": "Swimwear","value": 1},
+    {"source": "Types","target": "T-shirt","value": 1},
+    {"source": "Types","target": "Tanktop","value": 1},
+    {"source": "Concepts","target": "Ancient","value":1},
+    {"source": "Concepts","target": "Animals","value":1},
+    {"source": "Concepts","target": "Armor","value":1},
+    {"source": "Concepts","target": "Architecture","value":1},
+    {"source": "Concepts","target": "Asphalt","value":1},
+    {"source": "Concepts","target": "Batwings","value":1},
+    {"source": "Concepts","target": "Biomechanical","value":1},
+    {"source": "Concepts","target": "Bismuth","value":1},
+    {"source": "Concepts","target": "Bodyofrobot","value":1},
+    {"source": "Concepts","target": "Bones","value":1},
+    {"source": "Concepts","target": "Brass","value":1},
+    {"source": "Concepts","target": "Brokenglass","value":1},
+    {"source": "Concepts","target": "Carving","value":1},
+    {"source": "Concepts","target": "Ceramics","value":1},
+    {"source": "Concepts","target": "Clay","value":1},
+    {"source": "Concepts","target": "Cloud","value":1},
+    {"source": "Concepts","target": "Concrete","value":1},
+    {"source": "Concepts","target": "Cortensteel","value":1},
+    {"source": "Concepts","target": "Cortexsteel","value":1},
+    {"source": "Concepts","target": "CPU","value":1},
+    {"source": "Concepts","target": "Crudeoil","value":1},
+    {"source": "Concepts","target": "Crystal","value":1},
+    {"source": "Concepts","target": "Cybersuit","value":1},
+    {"source": "Concepts","target": "Cyberpunk","value":1},
+    {"source": "Concepts","target": "Dimond","value":1},
+    {"source": "Concepts","target": "Elementals","value":1},
+    {"source": "Concepts","target": "Emptiness","value":1},
+    {"source": "Concepts","target": "Etching","value":1},
+    {"source": "Concepts","target": "Etchedmetal","value":1},
+    {"source": "Concepts","target": "Feather","value":1},
+    {"source": "Concepts","target": "Fog","value":1},
+    {"source": "Concepts","target": "Foil","value":1},
+    {"source": "Concepts","target": "Gas","value":1},
+    {"source": "Concepts","target": "Geometry","value":1},
+    {"source": "Concepts","target": "Glass","value":1},
+    {"source": "Concepts","target": "Glow","value":1},
+    {"source": "Concepts","target": "Glue","value":1},
+    {"source": "Concepts","target": "Gold","value":1},
+    {"source": "Concepts","target": "Graphic","value":1},
+    {"source": "Concepts","target": "Handicraft","value":1},
+    {"source": "Concepts","target": "Ice","value":1},
+    {"source": "Concepts","target": "Illusion","value":1},
+    {"source": "Concepts","target": "Insects","value":1},
+    {"source": "Concepts","target": "Jewelry","value":1},
+    {"source": "Concepts","target": "Lavalamp","value":1},
+    {"source": "Concepts","target": "Lava","value":1},
+    {"source": "Concepts","target": "Leaf","value":1},
+    {"source": "Concepts","target": "Liquid","value":1},
+    {"source": "Concepts","target": "Lowpoly","value":1},
+    {"source": "Concepts","target": "Material","value":1},
+    {"source": "Concepts","target": "Mist","value":1},
+    {"source": "Concepts","target": "Motherboard","value":1},
+    {"source": "Concepts","target": "Neuron","value":1},
+    {"source": "Concepts","target": "Paper","value":1},
+    {"source": "Concepts","target": "Partialpressuresuit","value":1},
+    {"source": "Concepts","target": "Pixelated","value":1},
+    {"source": "Concepts","target": "Plants","value":1},
+    {"source": "Concepts","target": "Quilling","value":1},
+    {"source": "Concepts","target": "Rope","value":1},
+    {"source": "Concepts","target": "Sand","value":1},
+    {"source": "Concepts","target": "Skeleton","value":1},
+    {"source": "Concepts","target": "Stone","value":1},
+    {"source": "Concepts","target": "Tiles","value":1},
+    {"source": "Concepts","target": "Tutu","value":1},
+    {"source": "Concepts","target": "Wood","value":1},
+    {"source": "Items","target": "AncientHoodie","value": 1},
+    {"source": "Items","target": "AncientDress","value": 1},
+    {"source": "Hoodie","target": "AncientHoodie","value": 1},
+    {"source": "Dress","target": "AncientDress","value": 1},
+    {"source": "Ancient","target": "AncientHoodie","value": 1},
+    {"source": "Ancient","target": "AncientDress","value": 1},
+    {
+      "source": "AncientHoodie",
+      "target": "Pastedimage20230823225513",
+      "value": 1
+    },
+    {
+      "source": "AncientHoodie",
+      "target": "Pastedimage20230823225516",
+      "value": 1
+    },
+    {
+      "source": "AncientHoodie",
+      "target": "Pastedimage20230823225520",
+      "value": 1
+    },
+    {
+      "source": "AncientHoodie",
+      "target": "Pastedimage20230823225524",
+      "value": 1
+    },
+    {
+      "source": "Angelhoodie",
+      "target": "Pastedimage20230823223712",
+      "value": 1
+    },
+    {
+      "source": "Angelhoodie",
+      "target": "Pastedimage20230823223726",
+      "value": 1
+    },
+    {
+      "source": "Angelhoodie",
+      "target": "Pastedimage20230823223737",
+      "value": 1
+    },
+    {
+      "source": "Angelhoodie",
+      "target": "Pastedimage20230823223746",
+      "value": 1
+    },
+    {
+      "source": "Armorhoodie",
+      "target": "Pastedimage20230823224716",
+      "value": 1
+    },
+    {
+      "source": "Armorhoodie",
+      "target": "Pastedimage20230823224722",
+      "value": 1
+    },
+    {
+      "source": "Armorhoodie",
+      "target": "Pastedimage20230823224725",
+      "value": 1
+    },
+    {
+      "source": "Armorhoodie",
+      "target": "Pastedimage20230823224730",
+      "value": 1
+    },
+    {
+      "source": "Bananahoodie",
+      "target": "Pastedimage20230824144134",
+      "value": 1
+    },
+    {
+      "source": "Biomechanicalhoodie",
+      "target": "Pastedimage20230823223857",
+      "value": 1
+    },
+    {
+      "source": "Biomechanicalhoodie",
+      "target": "Pastedimage20230823223906",
+      "value": 1
+    },
+    {
+      "source": "Biomechanicalhoodie",
+      "target": "Pastedimage20230823223916",
+      "value": 1
+    },
+    {
+      "source": "Biomechanicalhoodie",
+      "target": "Pastedimage20230823223924",
+      "value": 1
+    },
+    {
+      "source": "Biomechanicallichenhoodie",
+      "target": "lichen_hoodie",
+      "value": 1
+    },
+    {
+      "source": "Biomechanicallichenhoodie",
+      "target": "Pastedimage20230823223951",
+      "value": 1
+    },
+    {
+      "source": "Biomechanicallichenhoodie",
+      "target": "Pastedimage20230823224000",
+      "value": 1
+    },
+    {
+      "source": "Biomechanicallichenhoodie",
+      "target": "Pastedimage20230823224010",
+      "value": 1
+    },
+    {
+      "source": "Biomechanicallichenhoodie",
+      "target": "Pastedimage20230823224017",
+      "value": 1
+    },
+    {
+      "source": "Biomechanicallichenhoodie",
+      "target": "Pastedimage20230823224028",
+      "value": 1
+    },
+    {
+      "source": "Biomechanicallichenhoodie",
+      "target": "Pastedimage20230823224039",
+      "value": 1
+    },
+    {
+      "source": "Biomechanicallichenhoodie",
+      "target": "Pastedimage20230823224047",
+      "value": 1
+    },
+    {
+      "source": "Biomechanicallichenhoodie",
+      "target": "Pastedimage20230823224056",
+      "value": 1
+    },
+    {
+      "source": "Biomechanicalt-shirt",
+      "target": "Pastedimage20230823012527",
+      "value": 1
+    },
+    {
+      "source": "Cloudhoodie",
+      "target": "Pastedimage20230824125328",
+      "value": 1
+    },
+    {
+      "source": "Concretet-shirt",
+      "target": "Pastedimage20230822235840",
+      "value": 1
+    },
+    {
+      "source": "Etchedwood",
+      "target": "Pastedimage20230824143751",
+      "value": 1
+    },
+    {
+      "source": "Etchedwood",
+      "target": "Pastedimage20230824143755",
+      "value": 1
+    },
+    {
+      "source": "Etchedwood",
+      "target": "Pastedimage20230824143758",
+      "value": 1
+    },
+    {
+      "source": "Etchedwood",
+      "target": "Pastedimage20230824143802.jpg",
+      "value": 1
+    },
+    {
+      "source": "Etchedwood",
+      "target": "Pastedimage20230824143823",
+      "value": 1
+    },
+    {
+      "source": "Fishhoodie",
+      "target": "Pastedimage20230824144727",
+      "value": 1
+    },
+    {
+      "source": "Fishhoodie",
+      "target": "Pastedimage20230824144731",
+      "value": 1
+    },
+    {
+      "source": "Icehoodie",
+      "target": "Pastedimage20230824124948",
+      "value": 1
+    },
+    {
+      "source": "Icehoodie",
+      "target": "Pastedimage20230824124951",
+      "value": 1
+    },
+    {
+      "source": "Icehoodie",
+      "target": "Pastedimage20230824125004",
+      "value": 1
+    },
+    {
+      "source": "Lavahoodie",
+      "target": "Pastedimage20230824125238",
+      "value": 1
+    },
+    {
+      "source": "Lavahoodie",
+      "target": "Pastedimage20230824125242",
+      "value": 1
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "Pastedimage20230824144520",
+      "value": 1
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "Pastedimage20230824144523",
+      "value": 1
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "Pastedimage20230824144526",
+      "value": 1
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "Pastedimage20230824144530",
+      "value": 1
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "Pastedimage20230824144534",
+      "value": 1
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "Pastedimage20230824144538",
+      "value": 1
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "Pastedimage20230824144542",
+      "value": 1
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "Pastedimage20230824144546",
+      "value": 1
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "Pastedimage20230824144549",
+      "value": 1
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "Pastedimage20230824144552",
+      "value": 1
+    },
+    {
+      "source": "Mushroomhoodie",
+      "target": "Pastedimage20230824144023",
+      "value": 1
+    },
+    {
+      "source": "Mushroomhoodie",
+      "target": "Pastedimage20230824144028",
+      "value": 1
+    },
+    {
+      "source": "Paperhoodie",
+      "target": "Pastedimage20230824125357",
+      "value": 1
+    },
+    {
+      "source": "Paperhoodie",
+      "target": "Pastedimage20230824125401",
+      "value": 1
+    },
+    {
+      "source": "Paperhoodie",
+      "target": "Pastedimage20230824125406",
+      "value": 1
+    },
+    {
+      "source": "Paperhoodie",
+      "target": "Pastedimage20230824125410",
+      "value": 1
+    },
+    {
+      "source": "Paperhoodie",
+      "target": "Pastedimage20230824125419",
+      "value": 1
+    },
+    {
+      "source": "Plantshoodie",
+      "target": "Pastedimage20230824143851",
+      "value": 1
+    },
+    {
+      "source": "Plantshoodie",
+      "target": "Pastedimage20230824143855",
+      "value": 1
+    },
+    {
+      "source": "Quillinghoodie",
+      "target": "Pastedimage20230823225749",
+      "value": 1
+    },
+    {
+      "source": "Quillinghoodie",
+      "target": "Pastedimage20230823225752",
+      "value": 1
+    },
+    {
+      "source": "Quillinghoodie",
+      "target": "Pastedimage20230823225755",
+      "value": 1
+    },
+    {
+      "source": "Quillinghoodie",
+      "target": "Pastedimage20230823225802",
+      "value": 1
+    },
+    {
+      "source": "Quillinghoodie",
+      "target": "Pastedimage20230823225809",
+      "value": 1
+    },
+    {
+      "source": "Quillinghoodie",
+      "target": "Pastedimage20230823225819",
+      "value": 1
+    },
+    {
+      "source": "Quillinghoodie",
+      "target": "Pastedimage20230823225823",
+      "value": 1
+    },
+    {
+      "source": "Quillinghoodie",
+      "target": "Pastedimage20230823225827",
+      "value": 1
+    },
+    {
+      "source": "Quillinghoodie",
+      "target": "Pastedimage20230823225832",
+      "value": 1
+    },
+    {
+      "source": "Rabbithoodie",
+      "target": "Pastedimage20230824144921",
+      "value": 1
+    },
+    {
+      "source": "Ropehoodie",
+      "target": "Pastedimage20230824143546",
+      "value": 1
+    },
+    {
+      "source": "Ropehoodie",
+      "target": "Pastedimage20230824143550",
+      "value": 1
+    },
+    {
+      "source": "Ropehoodie",
+      "target": "Pastedimage20230824143618",
+      "value": 1
+    },
+    {
+      "source": "Ropehoodie",
+      "target": "Pastedimage20230824143623",
+      "value": 1
+    },
+    {
+      "source": "Ropehoodie",
+      "target": "Pastedimage20230824143628",
+      "value": 1
+    },
+    {
+      "source": "Ropehoodie",
+      "target": "Pastedimage20230824143632",
+      "value": 1
+    },
+    {
+      "source": "Ropehoodie",
+      "target": "Pastedimage20230824143635",
+      "value": 1
+    },
+    {
+      "source": "Ropehoodie",
+      "target": "Pastedimage20230824143640",
+      "value": 1
+    },
+    {
+      "source": "Ropehoodie",
+      "target": "Pastedimage20230824143646",
+      "value": 1
+    },
+    {
+      "source": "Sandhoodie",
+      "target": "Pastedimage20230824125304",
+      "value": 1
+    },
+    {
+      "source": "Sheephoodie",
+      "target": "Pastedimage20230824144837",
+      "value": 1
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "Pastedimage20230823225210",
+      "value": 1
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "Pastedimage20230823225215",
+      "value": 1
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "Pastedimage20230823225221",
+      "value": 1
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "Pastedimage20230823225226",
+      "value": 1
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "Pastedimage20230823225231",
+      "value": 1
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "Pastedimage20230823225235",
+      "value": 1
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "Pastedimage20230823225251.jpg",
+      "value": 1
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "Pastedimage20230823225318",
+      "value": 1
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "Pastedimage20230823225324",
+      "value": 1
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "Pastedimage20230823225329",
+      "value": 1
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "Pastedimage20230823225333",
+      "value": 1
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "Pastedimage20230823225337",
+      "value": 1
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "Pastedimage20230823225341",
+      "value": 1
+    },
+    {
+      "source": "Spikedhoodie",
+      "target": "Pastedimage20230824125538",
+      "value": 1
+    },
+    {
+      "source": "Spikedhoodie",
+      "target": "Pastedimage20230824125541",
+      "value": 1
+    },
+    {
+      "source": "Spikedhoodie",
+      "target": "Pastedimage20230824125544",
+      "value": 1
+    },
+    {
+      "source": "Stonehoodie",
+      "target": "Pastedimage20230824125150",
+      "value": 1
+    },
+    {
+      "source": "Stonehoodie",
+      "target": "Pastedimage20230824125158",
+      "value": 1
+    },
+    {
+      "source": "Tileshoodie",
+      "target": "Pastedimage20230823224535",
+      "value": 1
+    },
+    {
+      "source": "Tileshoodie",
+      "target": "Pastedimage20230823224541",
+      "value": 1
+    },
+    {
+      "source": "Tileshoodie",
+      "target": "Pastedimage20230823224546",
+      "value": 1
+    },
+    {
+      "source": "Tileshoodie",
+      "target": "Pastedimage20230823224550",
+      "value": 1
+    },
+    {
+      "source": "Tileshoodie",
+      "target": "Pastedimage20230823224554",
+      "value": 1
+    },
+    {
+      "source": "Tutuhoodie",
+      "target": "Pastedimage20230823224208",
+      "value": 1
+    },
+    {
+      "source": "Tutuhoodie",
+      "target": "Pastedimage20230823224215",
+      "value": 1
+    },
+    {
+      "source": "Tutuhoodie",
+      "target": "Pastedimage20230823224221",
+      "value": 1
+    },
+    {
+      "source": "Woodcarvinghoodie",
+      "target": "Pastedimage20230822184739",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+<head>
+    <style> body {
+        margin: 0;
+    } </style>
+    <script src="//unpkg.com/element-resize-detector/dist/element-resize-detector.min.js"></script>
+    <script src="//unpkg.com/3d-force-graph"></script>
+    <script src="//unpkg.com/dat.gui"></script>
+
+</head>
+
+<body>
+<div id="3d-graph"></div>
+
+<script type="module">
+    import * as THREE from '//unpkg.com/three/build/three.module.js';
+
+    const Graph = ForceGraph3D()
+    (document.getElementById('3d-graph'))
+        .nodeThreeObject(node => {
+            if ([2].includes(node.val)) {
+                // skip if img or thmb file is not available
+                if (!node.img) return;
+                const imgTexture = new THREE.TextureLoader().load(`./${node.thmb}`);
+                imgTexture.colorSpace = THREE.SRGBColorSpace;
+                const material = new THREE.SpriteMaterial({map: imgTexture});
+                const sprite = new THREE.Sprite(material);
+                sprite.scale.set(node.val * 10, node.val * 10);
+                return sprite;
+            }
+        })
+        .onNodeClick(node => {
+            // Aim at node from outside it
+            const distance = 40;
+            const distRatio = 1 + distance / Math.hypot(node.x, node.y, node.z);
+
+            const newPos = node.x || node.y || node.z
+                ? {x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio}
+                : {x: 0, y: 0, z: distance}; // special case if node is in (0,0,0)
+
+            Graph.cameraPosition(
+                newPos, // new position
+                node, // lookAt ({ x, y, z })
+                300  // ms transition duration
+            );
+
+            const infoDiv = document.getElementById('node-info') || document.createElement('div');
+            infoDiv.id = 'node-info';
+            infoDiv.style.position = 'absolute';
+            infoDiv.style.top = '10px';
+            infoDiv.style.right = '10px';
+            infoDiv.style.padding = '10px';
+            infoDiv.style.overflow = 'auto';
+            infoDiv.style.maxWidth = '300px'; // Set max-width for the div
+            infoDiv.style.maxHeight = '300px'; // Set max-height for the div
+            infoDiv.innerHTML = node ? `<img src="./${node.img}" alt="Node Image" style="width: 100%; height: auto; max-width: 100%; max-height: 100%;">` : '';
+            if (!document.getElementById('node-info')) {
+                document.body.appendChild(infoDiv);
+            }
+
+
+        })
+        .onBackgroundClick(() => {
+            // Graph.cameraPosition({x: 0, y: 0, z: 0}, {x: 0, y: 0, z: 0}, 300);
+            const infoDiv = document.getElementById('node-info');
+            if (infoDiv) {
+                infoDiv.remove();
+            }
+        })
+        // .graphData(gData)
+        .jsonUrl('./data_clothes.json')
+        .nodeLabel('name')
+        .height(window.innerHeight - 60)
+        .nodeRelSize(4)
+        .linkWidth(1)
+        .linkDirectionalParticles(2)
+        .linkDirectionalParticleSpeed(0.005);
+
+    elementResizeDetectorMaker().listenTo(
+        document.getElementById('3d-graph'),
+        el => Graph.width(el.offsetWidth)
+    );
+</script>
+</body>
