@@ -1,83 +1,179 @@
 <head>
-    <style> body {
-        margin: 0;
-    } </style>
-    <script src="//unpkg.com/element-resize-detector/dist/element-resize-detector.min.js"></script>
+    <style>
+        body { 
+            margin: 0; 
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+        #3d-graph {
+            width: 100%;
+            height: 100%;
+        }
+        #info-display {
+            position: fixed; /* Fixed position to stay at the top */
+            top: 10px; /* Distance from the top */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Adjust for centering */
+            background-color: rgba(128, 128, 128, 0.7); /* Gray semi-transparent background */
+            color: rgb(11, 255, 11); /* Green text */
+            padding: 10px; /* Padding around the text */
+            border-radius: 5px; /* Rounded corners */
+            max-width: 80%; /* Limit width */
+            text-align: center; /* Center text */
+            z-index: 1000; /* Ensure it appears above other elements */
+            white-space: pre-wrap; /* Preserve whitespace and line breaks */
+            display: none; /* Initially hidden */
+        }
+    </style>
     <script src="//unpkg.com/3d-force-graph"></script>
-    <script src="//unpkg.com/dat.gui"></script>
-
 </head>
 
 <body>
 <div id="3d-graph"></div>
+<div id="info-display"></div>
+<script type="importmap">{ "imports": { "three": "//unpkg.com/three/build/three.module.js" }}</script>
+
 
 <script type="module">
-    import * as THREE from '//unpkg.com/three/build/three.module.js';
+    import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js';
+    import SpriteText from "//unpkg.com/three-spritetext/dist/three-spritetext.mjs";
+    import { GLTFLoader } from '//unpkg.com/three/examples/jsm/loaders/GLTFLoader.js';
 
     const Graph = ForceGraph3D()
-    (document.getElementById('3d-graph'))
+        (document.getElementById('3d-graph'))
+        .nodeLabel(node => {
+            // Show name for all nodes except designs
+            if (!/^\d{14}/.test(node.id)) {
+                return node.name || node.id;
+            }
+            return null;
+        })
         .nodeThreeObject(node => {
-            if ([2].includes(node.val)) {
-                // skip if img or thmb file is not available
-                if (!node.img) return;
-                const imgTexture = new THREE.TextureLoader().load(`./${node.thmb}`);
-                imgTexture.colorSpace = THREE.SRGBColorSpace;
-                const material = new THREE.SpriteMaterial({map: imgTexture});
+            // For designs (14-digit ID)
+            if (/^\d{14}/.test(node.id)) {
+                if (!node.thmb) return null;
+                
+                // Use full image if node is selected, otherwise use thumbnail
+                const imgUrl = node.isSelected ? node.img : node.thmb;
+                const imgTexture = new THREE.TextureLoader().load(imgUrl);
+                const material = new THREE.SpriteMaterial({ map: imgTexture });
                 const sprite = new THREE.Sprite(material);
-                sprite.scale.set(node.val * 10, node.val * 10);
+                sprite.scale.set(12, 12, 1);
                 return sprite;
             }
+            
+            // For main categories (val 4)
+            if (node.val === 4) {
+                const sprite = new SpriteText(node.name || node.id);
+                sprite.textHeight = 10;
+                sprite.color = '#ffffff';
+                sprite.backgroundColor = 'rgba(0,0,0,0.7)';
+                sprite.padding = 3;
+                sprite.borderRadius = 4;
+                return sprite;
+            }
+            
+            // For concepts (val 3)
+            if (node.val === 3) {
+                const sprite = new SpriteText(node.name || node.id);
+                sprite.textHeight = 8;
+                sprite.color = '#ffff80';
+                sprite.backgroundColor = 'rgba(0,0,0,0.6)';
+                sprite.padding = 2;
+                sprite.borderRadius = 3;
+                return sprite;
+            }
+            
+            // For items (val 2)
+            if (node.val === 2) {
+                const sprite = new SpriteText(node.name || node.id);
+                sprite.textHeight = 7;
+                sprite.color = '#ff8080';
+                sprite.backgroundColor = 'rgba(0,0,0,0.5)';
+                sprite.padding = 2;
+                sprite.borderRadius = 3;
+                return sprite;
+            }
+            
+            // For any other nodes
+            const sprite = new SpriteText(node.name || node.id);
+            sprite.textHeight = 6;
+            sprite.color = '#ffffff';
+            return sprite;
         })
-        .onNodeClick(node => {
-            // Aim at node from outside it
-            const distance = 40;
-            const distRatio = 1 + distance / Math.hypot(node.x, node.y, node.z);
-
-            const newPos = node.x || node.y || node.z
-                ? {x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio}
-                : {x: 0, y: 0, z: distance}; // special case if node is in (0,0,0)
-
-            Graph.cameraPosition(
-                newPos, // new position
-                node, // lookAt ({ x, y, z })
-                300  // ms transition duration
-            );
-
-            const infoDiv = document.getElementById('node-info') || document.createElement('div');
-            infoDiv.id = 'node-info';
-            infoDiv.style.position = 'absolute';
-            infoDiv.style.top = '10px';
-            infoDiv.style.right = '10px';
-            infoDiv.style.padding = '10px';
-            infoDiv.style.overflow = 'auto';
-            infoDiv.style.maxWidth = '300px'; // Set max-width for the div
-            infoDiv.style.maxHeight = '300px'; // Set max-height for the div
-            infoDiv.innerHTML = node ? `<img src="./${node.img}" alt="Node Image" style="width: 100%; height: auto; max-width: 100%; max-height: 100%;">` : '';
-            if (!document.getElementById('node-info')) {
-                document.body.appendChild(infoDiv);
+        .nodeColor(node => 
+            node.val === 4 ? '#ffffff' :
+            node.val === 3 ? '#ffff80' :
+            node.val === 2 ? '#ff8080' :
+            /^\d{14}/.test(node.id) ? '#ffffff' :
+            '#ffffff'
+        )
+        .onNodeClick(node => {            
+            // Set selected state for the clicked node
+            if (/^\d{14}/.test(node.id)) {
+                node.isSelected = true;
+                Graph.refresh(); // Trigger re-render to show full image
             }
 
-
+            let distance = 40;
+            
+            // Camera position
+            switch (node.val) {
+                case 4:
+                    distance = 150;
+                    break;
+                case 3:
+                    distance = 120;
+                    break;
+                case 2:
+                    distance = 20;
+                    break;
+                default:
+                    distance = 40;
+            }
+            const distRatio = 1 + distance / Math.hypot(node.x, node.y, node.z);
+            const newPos = node.x || node.y || node.z
+                ? { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }
+                : { x: 0, y: 0, z: distance };
+            Graph.cameraPosition(newPos, node, 300);
         })
         .onBackgroundClick(() => {
-            // Graph.cameraPosition({x: 0, y: 0, z: 0}, {x: 0, y: 0, z: 0}, 300);
+            Graph.graphData().nodes.forEach(node => {
+                if (node.isSelected) {
+                    node.isSelected = false;
+                }
+            });
+            Graph.refresh();
+
             const infoDiv = document.getElementById('node-info');
             if (infoDiv) {
                 infoDiv.remove();
             }
         })
-        // .graphData(gData)
-        .jsonUrl('./data_clothes.json')
-        .nodeLabel('name')
-        .height(window.innerHeight - 60)
+        .jsonUrl('./data.json')
+        .width(window.innerWidth)
+        .height(window.innerHeight)
         .nodeRelSize(4)
         .linkWidth(1)
         .linkDirectionalParticles(2)
         .linkDirectionalParticleSpeed(0.005);
 
-    elementResizeDetectorMaker().listenTo(
-        document.getElementById('3d-graph'),
-        el => Graph.width(el.offsetWidth)
-    );
+    // Handle window resizing
+    window.addEventListener('resize', () => {
+        Graph
+            .width(window.innerWidth)
+            .height(window.innerHeight);
+    });
+
+    // Load the content of info.md
+    fetch('info.md')
+        .then(response => response.text())
+        .then(text => {
+            const infoDisplay = document.getElementById('info-display');
+            infoDisplay.textContent = text; // Set the text content
+            infoDisplay.style.display = 'block'; // Show the info display
+        })
+        .catch(error => console.error('Error loading info.md:', error));
 </script>
 </body>
