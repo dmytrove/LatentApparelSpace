@@ -1,86 +1,216 @@
 {
   "nodes": [
-    {"id": "Types","name":"Clothes Types","img":"imgs/types.png","val": 4},
-    {"id": "Dress","name":"Dress","img": "imgs/Types/Dress.jpg","val":2},
-    {"id": "Hoodie","name":"Hoodie","img": "imgs/Types/Hoodie.jpg","val":2},
-    {"id": "Jacket","name":"Jacket","img": "imgs/Types/Jacket.jpg","val":2},
-    {"id": "Leggings","name":"Leggings","img": "imgs/Types/Leggings.jpg","val":2},
-    {"id": "Longsleeve","name":"Long sleeve","img": "imgs/Types/Long sleeve.jpg","val":2},
-    {"id": "Pants","name":"Pants","img": "imgs/Types/Pants.jpg","val":2},
-    {"id": "Skirt","name":"Skirt","img": "imgs/Types/Skirt.jpg","val":2},
-    {"id": "Socks","name":"Socks","img": "imgs/Types/Socks.jpg","val":2},
-    {"id": "Swimwear","name":"Swimwear","img": "imgs/Types/Swimwear.jpg","val":2},
-    {"id": "T-shirt","name":"T-shirt","img": "imgs/Types/T-shirt.jpg","val":2},
-    {"id": "Tanktop","name":"Tank top","img": "imgs/Types/Tank top.jpg","val":2},
-    {"id": "Concepts","name":"Concepts","img":"imgs/concepts.jpg","val": 4},
-    {"id": "Ancient", "name":"Ancient","img":"imgs/Concepts/Ancient.jpg","val":3},
-    {"id": "Animals", "name":"Animals","img":"imgs/Concepts/Animals.jpg","val":3},
-    {"id": "Armor", "name":"Armor","img":"imgs/Concepts/Armor.jpg","val":3},
-    {"id": "Architecture", "name":"Architecture","img":"imgs/Concepts/Architecture.jpg","val":3},
-    {"id": "Asphalt", "name":"Asphalt","img":"imgs/Concepts/Asphalt.jpg","val":3},
-    {"id": "Batwings", "name":"Bat wings","img":"imgs/Concepts/Bat wings.jpg","val":3},
-    {"id": "Biomechanical", "name":"Biomechanical","img":"imgs/Concepts/Biomechanical.jpg","val":3},
-    {"id": "Bismuth", "name":"Bismuth","img":"imgs/Concepts/Bismuth.jpg","val":3},
-    {"id": "Bodyofrobot", "name":"Body of robot","img":"imgs/Concepts/Body of robot.jpg","val":3},
-    {"id": "Bones", "name":"Bones","img":"imgs/Concepts/Bones.jpg","val":3},
-    {"id": "Brass", "name":"Brass","img":"imgs/Concepts/Brass.jpg","val":3},
-    {"id": "Brokenglass", "name":"Broken glass","img":"imgs/Concepts/Broken glass.jpg","val":3},
-    {"id": "Carving", "name":"Carving","img":"imgs/Concepts/Carving.jpg","val":3},
-    {"id": "Ceramics", "name":"Ceramics","img":"imgs/Concepts/Ceramics.jpg","val":3},
-    {"id": "Clay", "name":"Clay","img":"imgs/Concepts/Clay.jpg","val":3},
-    {"id": "Cloud", "name":"Cloud","img":"imgs/Concepts/Cloud.jpg","val":3},
-    {"id": "Concrete", "name":"Concrete","img":"imgs/Concepts/Concrete.jpg","val":3},
-    {"id": "Cortensteel", "name":"Corten steel","img":"imgs/Concepts/Corten steel.jpg","val":3},
-    {"id": "Cortexsteel", "name":"Cortex steel","img":"imgs/Concepts/Cortex steel.jpg","val":3},
-    {"id": "CPU", "name":"CPU","img":"imgs/Concepts/CPU.jpg","val":3},
-    {"id": "Crudeoil", "name":"Crude oil","img":"imgs/Concepts/Crude oil.jpg","val":3},
-    {"id": "Crystal", "name":"Crystal","img":"imgs/Concepts/Crystal.jpg","val":3},
-    {"id": "Cybersuit", "name":"Cyber suit","img":"imgs/Concepts/Cyber suit.jpg","val":3},
-    {"id": "Cyberpunk", "name":"Cyberpunk","img":"imgs/Concepts/Cyberpunk.jpg","val":3},
-    {"id": "Dimond", "name":"Dimond","img":"imgs/Concepts/Dimond.jpg","val":3},
-    {"id": "Elementals", "name":"Elementals","img":"imgs/Concepts/Elementals.jpg","val":3},
-    {"id": "Emptiness", "name":"Emptiness","img":"imgs/Concepts/Emptiness.jpg","val":3},
-    {"id": "Etching", "name":"Etching","img":"imgs/Concepts/Etching.jpg","val":3},
-    {"id": "Etchedmetal", "name":"Etched metal","img":"imgs/Concepts/Etched metal.jpg","val":3},
-    {"id": "Feather", "name":"Feather","img":"imgs/Concepts/Feather.jpg","val":3},
-    {"id": "Fog", "name":"Fog","img":"imgs/Concepts/Fog.jpg","val":3},
-    {"id": "Foil", "name":"Foil","img":"imgs/Concepts/Foil.jpg","val":3},
-    {"id": "Gas", "name":"Gas","img":"imgs/Concepts/Gas.jpg","val":3},
-    {"id": "Geometry", "name":"Geometry","img":"imgs/Concepts/Geometry.jpg","val":3},
-    {"id": "Glass", "name":"Glass","img":"imgs/Concepts/Glass.jpg","val":3},
-    {"id": "Glow", "name":"Glow","img":"imgs/Concepts/Glow.jpg","val":3},
-    {"id": "Glue", "name":"Glue","img":"imgs/Concepts/Glue.jpg","val":3},
-    {"id": "Gold", "name":"Gold","img":"imgs/Concepts/Gold.jpg","val":3},
-    {"id": "Graphic", "name":"Graphic","img":"imgs/Concepts/Graphic.jpg","val":3},
-    {"id": "Handicraft", "name":"Handicraft","img":"imgs/Concepts/Handicraft.jpg","val":3},
-    {"id": "Ice", "name":"Ice","img":"imgs/Concepts/Ice.jpg","val":3},
-    {"id": "Illusion", "name":"Illusion","img":"imgs/Concepts/Illusion.jpg","val":3},
-    {"id": "Insects", "name":"Insects","img":"imgs/Concepts/Insects.jpg","val":3},
-    {"id": "Jewelry", "name":"Jewelry","img":"imgs/Concepts/Jewelry.jpg","val":3},
-    {"id": "Lavalamp", "name":"Lava lamp","img":"imgs/Concepts/Lava lamp.jpg","val":3},
-    {"id": "Lava", "name":"Lava","img":"imgs/Concepts/Lava.jpg","val":3},
-    {"id": "Leaf", "name":"Leaf","img":"imgs/Concepts/Leaf.jpg","val":3},
-    {"id": "Liquid", "name":"Liquid","img":"imgs/Concepts/Liquid.jpg","val":3},
-    {"id": "Lowpoly", "name":"Low poly","img":"imgs/Concepts/Low poly.jpg","val":3},
-    {"id": "Material", "name":"Material","img":"imgs/Concepts/Material.jpg","val":3},
-    {"id": "Mist", "name":"Mist","img":"imgs/Concepts/Mist.jpg","val":3},
-    {"id": "Motherboard", "name":"Motherboard","img":"imgs/Concepts/Motherboard.jpg","val":3},
-    {"id": "Neuron", "name":"Neuron","img":"imgs/Concepts/Neuron.jpg","val":3},
-    {"id": "Paper", "name":"Paper","img":"imgs/Concepts/Paper.jpg","val":3},
-    {"id": "Partialpressuresuit", "name":"Partial pressure suit","img":"imgs/Concepts/Partial pressure suit.jpg","val":3},
-    {"id": "Pixelated", "name":"Pixelated","img":"imgs/Concepts/Pixelated.jpg","val":3},
-    {"id": "Plants", "name":"Plants","img":"imgs/Concepts/Plants.jpg","val":3},
-    {"id": "Quilling", "name":"Quilling","img":"imgs/Concepts/Quilling.jpg","val":3},
-    {"id": "Rope", "name":"Rope","img":"imgs/Concepts/Rope.jpg","val":3},
-    {"id": "Sand", "name":"Sand","img":"imgs/Concepts/Sand.jpg","val":3},
-    {"id": "Skeleton", "name":"Skeleton","img":"imgs/Concepts/Skeleton.jpg","val":3},
-    {"id": "Stone", "name":"Stone","img":"imgs/Concepts/Stone.jpg","val":3},
-    {"id": "Tiles", "name":"Tiles","img":"imgs/Concepts/Tiles.jpg","val":3},
-    {"id": "Tutu", "name":"Tutu","img":"imgs/Concepts/Tutu.jpg","val":3},
-    {"id": "Wood", "name":"Wood","img":"imgs/Concepts/Wood.jpg","val":3},
-    {"id": "Items", "name": "Items", "img": "imgs/items.jpg","val": 4},
-    {"id": "AncientHoodie","name": "Ancient hoodie","img": "imgs/Items/AncientHoodie.jpg","val": 2},
-    {"id": "AncientDress","name": "Ancient dress","img": "imgs/Items/AncientDress.jpg","val": 2},
+    {
+      "id": "Types",
+      "name": "Clothes Types",
+      "img": "imgs/types.png",
+      "val": 4,
+      "thmb": "imgs/thumbnails/types_thumb.png"
+    },
+    {
+      "id": "Dress",
+      "name": "Dress",
+      "img": "imgs/Types/dress.jpg",
+      "val": 2,
+      "thmb": "imgs/thumbnails/dress_thumb.jpg"
+    },
+    {
+      "id": "Hoodie",
+      "name": "Hoodie",
+      "img": "imgs/Types/hoodie.jpg",
+      "val": 2,
+      "thmb": "imgs/thumbnails/hoodie_thumb.jpg"
+    },
+    {
+      "id": "T-shirt",
+      "name": "T-shirt",
+      "img": "imgs/Types/tShirt.jpg",
+      "val": 2,
+      "thmb": "imgs/thumbnails/tShirt_thumb.jpg"
+    },
+    {
+      "id": "Concepts",
+      "name": "Concepts",
+      "val": 4,
+      "level": 1,
+      "img": "imgs/Concepts.jpg",
+      "thmb": "imgs/thumbnails/Concepts_thumb.jpg"
+    },
+    {
+      "id": "Ancient",
+      "name": "Ancient",
+      "img": "imgs/Concepts/ancient.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/ancient_thumb.jpg"
+    },
+    {
+      "id": "Animals",
+      "name": "Animals",
+      "img": "imgs/Concepts/animals.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/animals_thumb.jpg"
+    },
+    {
+      "id": "Biomechanical",
+      "name": "Biomechanical",
+      "img": "imgs/Concepts/biomechanical.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/biomechanical_thumb.jpg"
+    },
+    {
+      "id": "Carving",
+      "name": "Carving",
+      "img": "imgs/Concepts/carving.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/carving_thumb.jpg"
+    },
+    {
+      "id": "Cloud",
+      "name": "Cloud",
+      "img": "imgs/Concepts/cloud.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/cloud_thumb.jpg"
+    },
+    {
+      "id": "Concrete",
+      "name": "Concrete",
+      "img": "imgs/Concepts/concrete.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/concrete_thumb.jpg"
+    },
+    {
+      "id": "Cyberpunk",
+      "name": "Cyberpunk",
+      "img": "imgs/Concepts/cyberpunk.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/cyberpunk_thumb.jpg"
+    },
+    {
+      "id": "Etching",
+      "name": "Etching",
+      "img": "imgs/Concepts/etching.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/etching_thumb.jpg"
+    },
+    {
+      "id": "Glow",
+      "name": "Glow",
+      "img": "imgs/Concepts/glow.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/glow_thumb.jpg"
+    },
+    {
+      "id": "Ice",
+      "name": "Ice",
+      "img": "imgs/Concepts/ice.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/ice_thumb.jpg"
+    },
+    {
+      "id": "Lava",
+      "name": "Lava",
+      "img": "imgs/Concepts/lava.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/lava_thumb.jpg"
+    },
+    {
+      "id": "Lowpoly",
+      "name": "Low poly",
+      "img": "imgs/Concepts/lowPoly.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/lowPoly_thumb.jpg"
+    },
+    {
+      "id": "Paper",
+      "name": "Paper",
+      "img": "imgs/Concepts/paper.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/paper_thumb.jpg"
+    },
+    {
+      "id": "Plants",
+      "name": "Plants",
+      "img": "imgs/Concepts/plants.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/plants_thumb.jpg"
+    },
+    {
+      "id": "Quilling",
+      "name": "Quilling",
+      "img": "imgs/Concepts/quilling.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/quilling_thumb.jpg"
+    },
+    {
+      "id": "Rope",
+      "name": "Rope",
+      "img": "imgs/Concepts/rope.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/rope_thumb.jpg"
+    },
+    {
+      "id": "Sand",
+      "name": "Sand",
+      "img": "imgs/Concepts/sand.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/sand_thumb.jpg"
+    },
+    {
+      "id": "Skeleton",
+      "name": "Skeleton",
+      "img": "imgs/Concepts/skeleton.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/skeleton_thumb.jpg"
+    },
+    {
+      "id": "Stone",
+      "name": "Stone",
+      "img": "imgs/Concepts/stone.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/stone_thumb.jpg"
+    },
+    {
+      "id": "Tiles",
+      "name": "Tiles",
+      "img": "imgs/Concepts/tiles.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/tiles_thumb.jpg"
+    },
+    {
+      "id": "Tutu",
+      "name": "Tutu",
+      "img": "imgs/Concepts/tutu.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/tutu_thumb.jpg"
+    },
+    {
+      "id": "Wood",
+      "name": "Wood",
+      "img": "imgs/Concepts/wood.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/wood_thumb.jpg"
+    },
+    {
+      "id": "Items",
+      "name": "Items",
+      "img": "imgs/items.jpg",
+      "val": 4,
+      "thmb": "imgs/thumbnails/items_thumb.jpg"
+    },
+    {
+      "id": "AncientHoodie",
+      "name": "Ancient hoodie",
+      "img": "imgs/Items/ancienthoodie.jpg",
+      "val": 2,
+      "thmb": "imgs/thumbnails/ancienthoodie_thumb.jpg"
+    },
+    {
+      "id": "AncientDress",
+      "name": "Ancient dress",
+      "img": "imgs/Items/ancientdress.jpg",
+      "val": 2,
+      "thmb": "imgs/thumbnails/ancientdress_thumb.jpg"
+    },
     {
       "id": "20230823225513",
       "name": "20230823225513",
@@ -112,7 +242,9 @@
     {
       "id": "Angelhoodie",
       "name": "Angel hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Angelhoodie.jpg",
+      "thmb": "imgs/thumbnails/Angelhoodie_thumb.jpg"
     },
     {
       "id": "20230823223712",
@@ -145,7 +277,9 @@
     {
       "id": "Armorhoodie",
       "name": "Armor hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Armorhoodie.jpg",
+      "thmb": "imgs/thumbnails/Armorhoodie_thumb.jpg"
     },
     {
       "id": "20230823224716",
@@ -178,7 +312,9 @@
     {
       "id": "Bananahoodie",
       "name": "Banana hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Bananahoodie.jpg",
+      "thmb": "imgs/thumbnails/Bananahoodie_thumb.jpg"
     },
     {
       "id": "20230824144134",
@@ -190,7 +326,9 @@
     {
       "id": "Biomechanicalhoodie",
       "name": "Biomechanical hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Biomechanicalhoodie.jpg",
+      "thmb": "imgs/thumbnails/Biomechanicalhoodie_thumb.jpg"
     },
     {
       "id": "20230823223857",
@@ -223,13 +361,15 @@
     {
       "id": "Biomechanicallichenhoodie",
       "name": "Biomechanical lichen hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Biomechanicallichenhoodie.jpg",
+      "thmb": "imgs/thumbnails/Biomechanicallichenhoodie_thumb.jpg"
     },
     {
       "id": "lichen_hoodie",
       "name": "lichen_hoodie",
-      "img": "imgs/Designs/lichen_hoodie.png",
-      "thmb": "imgs/Designs/Thumbnails/lichen_hoodie.png",
+      "img": "imgs/Designs/lichenHoodie.png",
+      "thmb": "imgs/Designs/Thumbnails/lichenHoodie.png",
       "val": 2
     },
     {
@@ -291,7 +431,9 @@
     {
       "id": "Biomechanicalt-shirt",
       "name": "Biomechanical t-shirt",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Biomechanicalt-shirt.jpg",
+      "thmb": "imgs/thumbnails/Biomechanicalt-shirt_thumb.jpg"
     },
     {
       "id": "20230823012527",
@@ -303,7 +445,9 @@
     {
       "id": "Cloudhoodie",
       "name": "Cloud hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Cloudhoodie.jpg",
+      "thmb": "imgs/thumbnails/Cloudhoodie_thumb.jpg"
     },
     {
       "id": "20230824125328",
@@ -315,7 +459,9 @@
     {
       "id": "Concretet-shirt",
       "name": "Concrete t-shirt",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Concretet-shirt.jpg",
+      "thmb": "imgs/thumbnails/Concretet-shirt_thumb.jpg"
     },
     {
       "id": "20230822235840",
@@ -327,12 +473,16 @@
     {
       "id": "Emptiness",
       "name": "Emptiness",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Emptiness.jpg",
+      "thmb": "imgs/thumbnails/Emptiness_thumb.jpg"
     },
     {
       "id": "Etchedwood",
       "name": "Etched wood",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Etchedwood.jpg",
+      "thmb": "imgs/thumbnails/Etchedwood_thumb.jpg"
     },
     {
       "id": "20230824143751",
@@ -372,7 +522,9 @@
     {
       "id": "Fishhoodie",
       "name": "Fish hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Fishhoodie.jpg",
+      "thmb": "imgs/thumbnails/Fishhoodie_thumb.jpg"
     },
     {
       "id": "20230824144727",
@@ -391,7 +543,9 @@
     {
       "id": "Icehoodie",
       "name": "Ice hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Icehoodie.jpg",
+      "thmb": "imgs/thumbnails/Icehoodie_thumb.jpg"
     },
     {
       "id": "20230824124948",
@@ -417,7 +571,9 @@
     {
       "id": "Lavahoodie",
       "name": "Lava hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Lavahoodie.jpg",
+      "thmb": "imgs/thumbnails/Lavahoodie_thumb.jpg"
     },
     {
       "id": "20230824125238",
@@ -436,7 +592,9 @@
     {
       "id": "Lowpolyhoodie",
       "name": "Low poly hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Lowpolyhoodie.jpg",
+      "thmb": "imgs/thumbnails/Lowpolyhoodie_thumb.jpg"
     },
     {
       "id": "20230824144520",
@@ -511,7 +669,9 @@
     {
       "id": "Mushroomhoodie",
       "name": "Mushroom hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Mushroomhoodie.jpg",
+      "thmb": "imgs/thumbnails/Mushroomhoodie_thumb.jpg"
     },
     {
       "id": "20230824144023",
@@ -530,7 +690,9 @@
     {
       "id": "Paperhoodie",
       "name": "Paper hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Paperhoodie.jpg",
+      "thmb": "imgs/thumbnails/Paperhoodie_thumb.jpg"
     },
     {
       "id": "20230824125357",
@@ -570,7 +732,9 @@
     {
       "id": "Plantshoodie",
       "name": "Plants hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Plantshoodie.jpg",
+      "thmb": "imgs/thumbnails/Plantshoodie_thumb.jpg"
     },
     {
       "id": "20230824143851",
@@ -589,7 +753,9 @@
     {
       "id": "Quillinghoodie",
       "name": "Quilling hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Quillinghoodie.jpg",
+      "thmb": "imgs/thumbnails/Quillinghoodie_thumb.jpg"
     },
     {
       "id": "20230823225749",
@@ -657,7 +823,9 @@
     {
       "id": "Rabbithoodie",
       "name": "Rabbit hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Rabbithoodie.jpg",
+      "thmb": "imgs/thumbnails/Rabbithoodie_thumb.jpg"
     },
     {
       "id": "20230824144921",
@@ -669,7 +837,9 @@
     {
       "id": "Ropehoodie",
       "name": "Rope hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Ropehoodie.jpg",
+      "thmb": "imgs/thumbnails/Ropehoodie_thumb.jpg"
     },
     {
       "id": "20230824143546",
@@ -737,7 +907,9 @@
     {
       "id": "Sandhoodie",
       "name": "Sand hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Sandhoodie.jpg",
+      "thmb": "imgs/thumbnails/Sandhoodie_thumb.jpg"
     },
     {
       "id": "20230824125304",
@@ -749,7 +921,9 @@
     {
       "id": "Sheephoodie",
       "name": "Sheep hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Sheephoodie.jpg",
+      "thmb": "imgs/thumbnails/Sheephoodie_thumb.jpg"
     },
     {
       "id": "20230824144837",
@@ -761,7 +935,9 @@
     {
       "id": "Skeletonhoodie",
       "name": "Skeleton hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Skeletonhoodie.jpg",
+      "thmb": "imgs/thumbnails/Skeletonhoodie_thumb.jpg"
     },
     {
       "id": "20230823225210",
@@ -857,7 +1033,9 @@
     {
       "id": "Spikedhoodie",
       "name": "Spiked hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Spikedhoodie.jpg",
+      "thmb": "imgs/thumbnails/Spikedhoodie_thumb.jpg"
     },
     {
       "id": "20230824125538",
@@ -883,7 +1061,9 @@
     {
       "id": "Stonehoodie",
       "name": "Stone hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Stonehoodie.jpg",
+      "thmb": "imgs/thumbnails/Stonehoodie_thumb.jpg"
     },
     {
       "id": "20230824125150",
@@ -902,7 +1082,9 @@
     {
       "id": "Tileshoodie",
       "name": "Tiles hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Tileshoodie.jpg",
+      "thmb": "imgs/thumbnails/Tileshoodie_thumb.jpg"
     },
     {
       "id": "20230823224535",
@@ -942,7 +1124,9 @@
     {
       "id": "Tutuhoodie",
       "name": "Tutu hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Tutuhoodie.jpg",
+      "thmb": "imgs/thumbnails/Tutuhoodie_thumb.jpg"
     },
     {
       "id": "20230823224208",
@@ -968,7 +1152,9 @@
     {
       "id": "Woodcarvinghoodie",
       "name": "Wood carving hoodie",
-      "val": 2
+      "val": 2,
+      "img": "imgs/Woodcarvinghoodie.jpg",
+      "thmb": "imgs/thumbnails/Woodcarvinghoodie_thumb.jpg"
     },
     {
       "id": "20230822184739",
@@ -976,91 +1162,239 @@
       "img": "imgs/Designs/20230822184739.png",
       "thmb": "imgs/Designs/Thumbnails/20230822184739.png",
       "val": 2
+    },
+    {
+      "id": "Underwear",
+      "name": "Underwear",
+      "img": "imgs/Types/underwear.jpg",
+      "val": 2,
+      "thmb": "imgs/thumbnails/underwear_thumb.jpg"
+    },
+    {
+      "id": "Holographic",
+      "name": "Holographic",
+      "img": "imgs/Concepts/holographic.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/holographic_thumb.jpg"
+    },
+    {
+      "id": "Neon",
+      "name": "Neon",
+      "img": "imgs/Concepts/neon.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/neon_thumb.jpg"
+    },
+    {
+      "id": "Metallic",
+      "name": "Metallic",
+      "img": "imgs/Concepts/metallic.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/metallic_thumb.jpg"
+    },
+    {
+      "id": "Organic",
+      "name": "Organic",
+      "img": "imgs/Concepts/organic.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/organic_thumb.jpg"
+    },
+    {
+      "id": "Geometric",
+      "name": "Geometric",
+      "img": "imgs/Concepts/geometric.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/geometric_thumb.jpg"
+    },
+    {
+      "id": "Texture",
+      "name": "Texture",
+      "img": "imgs/Concepts/texture.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/texture_thumb.jpg"
+    },
+    {
+      "id": "Pattern",
+      "name": "Pattern",
+      "img": "imgs/Concepts/pattern.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/pattern_thumb.jpg"
+    },
+    {
+      "id": "Digital",
+      "name": "Digital",
+      "img": "imgs/Concepts/digital.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/digital_thumb.jpg"
+    },
+    {
+      "id": "Nature",
+      "name": "Nature",
+      "img": "imgs/Concepts/nature.jpg",
+      "val": 3,
+      "thmb": "imgs/thumbnails/nature_thumb.jpg"
     }
   ],
   "links": [
-    {"source": "Types","target": "Hoodie","value": 1},
-    {"source": "Types","target": "Dress","value": 1},
-    {"source": "Types","target": "Jacket","value": 1},
-    {"source": "Types","target": "Leggings","value": 1},
-    {"source": "Types","target": "Longsleeve","value": 1},
-    {"source": "Types","target": "Pants","value": 1},
-    {"source": "Types","target": "Skirt","value": 1},
-    {"source": "Types","target": "Socks","value": 1},
-    {"source": "Types","target": "Swimwear","value": 1},
-    {"source": "Types","target": "T-shirt","value": 1},
-    {"source": "Types","target": "Tanktop","value": 1},
-    {"source": "Concepts","target": "Ancient","value":1},
-    {"source": "Concepts","target": "Animals","value":1},
-    {"source": "Concepts","target": "Armor","value":1},
-    {"source": "Concepts","target": "Architecture","value":1},
-    {"source": "Concepts","target": "Asphalt","value":1},
-    {"source": "Concepts","target": "Batwings","value":1},
-    {"source": "Concepts","target": "Biomechanical","value":1},
-    {"source": "Concepts","target": "Bismuth","value":1},
-    {"source": "Concepts","target": "Bodyofrobot","value":1},
-    {"source": "Concepts","target": "Bones","value":1},
-    {"source": "Concepts","target": "Brass","value":1},
-    {"source": "Concepts","target": "Brokenglass","value":1},
-    {"source": "Concepts","target": "Carving","value":1},
-    {"source": "Concepts","target": "Ceramics","value":1},
-    {"source": "Concepts","target": "Clay","value":1},
-    {"source": "Concepts","target": "Cloud","value":1},
-    {"source": "Concepts","target": "Concrete","value":1},
-    {"source": "Concepts","target": "Cortensteel","value":1},
-    {"source": "Concepts","target": "Cortexsteel","value":1},
-    {"source": "Concepts","target": "CPU","value":1},
-    {"source": "Concepts","target": "Crudeoil","value":1},
-    {"source": "Concepts","target": "Crystal","value":1},
-    {"source": "Concepts","target": "Cybersuit","value":1},
-    {"source": "Concepts","target": "Cyberpunk","value":1},
-    {"source": "Concepts","target": "Dimond","value":1},
-    {"source": "Concepts","target": "Elementals","value":1},
-    {"source": "Concepts","target": "Emptiness","value":1},
-    {"source": "Concepts","target": "Etching","value":1},
-    {"source": "Concepts","target": "Etchedmetal","value":1},
-    {"source": "Concepts","target": "Feather","value":1},
-    {"source": "Concepts","target": "Fog","value":1},
-    {"source": "Concepts","target": "Foil","value":1},
-    {"source": "Concepts","target": "Gas","value":1},
-    {"source": "Concepts","target": "Geometry","value":1},
-    {"source": "Concepts","target": "Glass","value":1},
-    {"source": "Concepts","target": "Glow","value":1},
-    {"source": "Concepts","target": "Glue","value":1},
-    {"source": "Concepts","target": "Gold","value":1},
-    {"source": "Concepts","target": "Graphic","value":1},
-    {"source": "Concepts","target": "Handicraft","value":1},
-    {"source": "Concepts","target": "Ice","value":1},
-    {"source": "Concepts","target": "Illusion","value":1},
-    {"source": "Concepts","target": "Insects","value":1},
-    {"source": "Concepts","target": "Jewelry","value":1},
-    {"source": "Concepts","target": "Lavalamp","value":1},
-    {"source": "Concepts","target": "Lava","value":1},
-    {"source": "Concepts","target": "Leaf","value":1},
-    {"source": "Concepts","target": "Liquid","value":1},
-    {"source": "Concepts","target": "Lowpoly","value":1},
-    {"source": "Concepts","target": "Material","value":1},
-    {"source": "Concepts","target": "Mist","value":1},
-    {"source": "Concepts","target": "Motherboard","value":1},
-    {"source": "Concepts","target": "Neuron","value":1},
-    {"source": "Concepts","target": "Paper","value":1},
-    {"source": "Concepts","target": "Partialpressuresuit","value":1},
-    {"source": "Concepts","target": "Pixelated","value":1},
-    {"source": "Concepts","target": "Plants","value":1},
-    {"source": "Concepts","target": "Quilling","value":1},
-    {"source": "Concepts","target": "Rope","value":1},
-    {"source": "Concepts","target": "Sand","value":1},
-    {"source": "Concepts","target": "Skeleton","value":1},
-    {"source": "Concepts","target": "Stone","value":1},
-    {"source": "Concepts","target": "Tiles","value":1},
-    {"source": "Concepts","target": "Tutu","value":1},
-    {"source": "Concepts","target": "Wood","value":1},
-    {"source": "Items","target": "AncientHoodie","value": 1},
-    {"source": "Items","target": "AncientDress","value": 1},
-    {"source": "Hoodie","target": "AncientHoodie","value": 1},
-    {"source": "Dress","target": "AncientDress","value": 1},
-    {"source": "Ancient","target": "AncientHoodie","value": 1},
-    {"source": "Ancient","target": "AncientDress","value": 1},
+    {
+      "source": "Types",
+      "target": "Hoodie",
+      "value": 1
+    },
+    {
+      "source": "Types",
+      "target": "Dress",
+      "value": 1
+    },
+    {
+      "source": "Types",
+      "target": "T-shirt",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Ancient",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Animals",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Biomechanical",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Carving",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Cloud",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Concrete",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Cyberpunk",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Emptiness",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Etching",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Glow",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Ice",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Lava",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Lowpoly",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Paper",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Plants",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Quilling",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Rope",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Sand",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Skeleton",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Stone",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Tiles",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Tutu",
+      "value": 1
+    },
+    {
+      "source": "Concepts",
+      "target": "Wood",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "AncientHoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "AncientDress",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "AncientHoodie",
+      "value": 1
+    },
+    {
+      "source": "Dress",
+      "target": "AncientDress",
+      "value": 1
+    },
+    {
+      "source": "Ancient",
+      "target": "AncientHoodie",
+      "value": 1
+    },
+    {
+      "source": "Ancient",
+      "target": "AncientDress",
+      "value": 1
+    },
     {
       "source": "AncientHoodie",
       "target": "20230823225513",
@@ -1599,6 +1933,556 @@
     {
       "source": "Woodcarvinghoodie",
       "target": "20230822184739",
+      "value": 1
+    },
+    {
+      "source": "Underwear",
+      "target": "Angelhoodie",
+      "value": 1
+    },
+    {
+      "source": "Underwear",
+      "target": "Armorhoodie",
+      "value": 1
+    },
+    {
+      "source": "Underwear",
+      "target": "Biomechanicalhoodie",
+      "value": 1
+    },
+    {
+      "source": "Underwear",
+      "target": "Cloudhoodie",
+      "value": 1
+    },
+    {
+      "source": "T-shirt",
+      "target": "Biomechanicalt-shirt",
+      "value": 1
+    },
+    {
+      "source": "T-shirt",
+      "target": "Concretet-shirt",
+      "value": 1
+    },
+    {
+      "source": "Holographic",
+      "target": "Biomechanicalhoodie",
+      "value": 1
+    },
+    {
+      "source": "Digital",
+      "target": "Biomechanicalhoodie",
+      "value": 1
+    },
+    {
+      "source": "Metallic",
+      "target": "Armorhoodie",
+      "value": 1
+    },
+    {
+      "source": "Pattern",
+      "target": "Tileshoodie",
+      "value": 1
+    },
+    {
+      "source": "Texture",
+      "target": "Stonehoodie",
+      "value": 1
+    },
+    {
+      "source": "Nature",
+      "target": "Plantshoodie",
+      "value": 1
+    },
+    {
+      "source": "Organic",
+      "target": "Mushroomhoodie",
+      "value": 1
+    },
+    {
+      "source": "Geometric",
+      "target": "Lowpolyhoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Bananahoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Biomechanicallichenhoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Fishhoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Icehoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Lavahoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Lowpolyhoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Mushroomhoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Paperhoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Plantshoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Quillinghoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Rabbithoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Ropehoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Sandhoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Sheephoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Skeletonhoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Spikedhoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Stonehoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Tileshoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Tutuhoodie",
+      "value": 1
+    },
+    {
+      "source": "Hoodie",
+      "target": "Woodcarvinghoodie",
+      "value": 1
+    },
+    {
+      "source": "Animals",
+      "target": "Fishhoodie",
+      "value": 1
+    },
+    {
+      "source": "Animals",
+      "target": "Rabbithoodie",
+      "value": 1
+    },
+    {
+      "source": "Animals",
+      "target": "Sheephoodie",
+      "value": 1
+    },
+    {
+      "source": "Ice",
+      "target": "Icehoodie",
+      "value": 1
+    },
+    {
+      "source": "Lava",
+      "target": "Lavahoodie",
+      "value": 1
+    },
+    {
+      "source": "Lowpoly",
+      "target": "Lowpolyhoodie",
+      "value": 1
+    },
+    {
+      "source": "Paper",
+      "target": "Paperhoodie",
+      "value": 1
+    },
+    {
+      "source": "Plants",
+      "target": "Plantshoodie",
+      "value": 1
+    },
+    {
+      "source": "Quilling",
+      "target": "Quillinghoodie",
+      "value": 1
+    },
+    {
+      "source": "Rope",
+      "target": "Ropehoodie",
+      "value": 1
+    },
+    {
+      "source": "Sand",
+      "target": "Sandhoodie",
+      "value": 1
+    },
+    {
+      "source": "Skeleton",
+      "target": "Skeletonhoodie",
+      "value": 1
+    },
+    {
+      "source": "Stone",
+      "target": "Stonehoodie",
+      "value": 1
+    },
+    {
+      "source": "Tiles",
+      "target": "Tileshoodie",
+      "value": 1
+    },
+    {
+      "source": "Tutu",
+      "target": "Tutuhoodie",
+      "value": 1
+    },
+    {
+      "source": "Wood",
+      "target": "Woodcarvinghoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Angelhoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Armorhoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Bananahoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Biomechanicalhoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Biomechanicallichenhoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Biomechanicalt-shirt",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Cloudhoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Concretet-shirt",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Fishhoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Icehoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Lavahoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Lowpolyhoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Mushroomhoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Paperhoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Plantshoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Quillinghoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Rabbithoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Ropehoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Sandhoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Sheephoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Skeletonhoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Spikedhoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Stonehoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Tileshoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Tutuhoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Woodcarvinghoodie",
+      "value": 1
+    },
+    {
+      "source": "Biomechanical",
+      "target": "Biomechanicalhoodie",
+      "value": 1
+    },
+    {
+      "source": "Biomechanical",
+      "target": "Biomechanicallichenhoodie",
+      "value": 1
+    },
+    {
+      "source": "Biomechanical",
+      "target": "Biomechanicalt-shirt",
+      "value": 1
+    },
+    {
+      "source": "Cloud",
+      "target": "Cloudhoodie",
+      "value": 1
+    },
+    {
+      "source": "Concrete",
+      "target": "Concretet-shirt",
+      "value": 1
+    },
+    {
+      "source": "Carving",
+      "target": "Woodcarvinghoodie",
+      "value": 1
+    },
+    {
+      "source": "Nature",
+      "target": "Fishhoodie",
+      "value": 1
+    },
+    {
+      "source": "Nature",
+      "target": "Rabbithoodie",
+      "value": 1
+    },
+    {
+      "source": "Nature",
+      "target": "Sheephoodie",
+      "value": 1
+    },
+    {
+      "source": "Nature",
+      "target": "Mushroomhoodie",
+      "value": 1
+    },
+    {
+      "source": "Nature",
+      "target": "Plantshoodie",
+      "value": 1
+    },
+    {
+      "source": "Geometric",
+      "target": "Lowpolyhoodie",
+      "value": 1
+    },
+    {
+      "source": "Geometric",
+      "target": "Tileshoodie",
+      "value": 1
+    },
+    {
+      "source": "Texture",
+      "target": "Ropehoodie",
+      "value": 1
+    },
+    {
+      "source": "Texture",
+      "target": "Sandhoodie",
+      "value": 1
+    },
+    {
+      "source": "Texture",
+      "target": "Stonehoodie",
+      "value": 1
+    },
+    {
+      "source": "Texture",
+      "target": "Woodcarvinghoodie",
+      "value": 1
+    },
+    {
+      "source": "Pattern",
+      "target": "Quillinghoodie",
+      "value": 1
+    },
+    {
+      "source": "Pattern",
+      "target": "Tileshoodie",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Etchedwood",
+      "value": 1
+    },
+    {
+      "source": "Wood",
+      "target": "Etchedwood",
+      "value": 1
+    },
+    {
+      "source": "Etching",
+      "target": "Etchedwood",
+      "value": 1
+    },
+    {
+      "source": "Carving",
+      "target": "Etchedwood",
+      "value": 1
+    },
+    {
+      "source": "Texture",
+      "target": "Etchedwood",
+      "value": 1
+    },
+    {
+      "source": "Nature",
+      "target": "Etchedwood",
+      "value": 1
+    },
+    {
+      "source": "Items",
+      "target": "Emptiness",
+      "value": 1
+    },
+    {
+      "source": "Emptiness",
+      "target": "Cloud",
+      "value": 1
+    },
+    {
+      "source": "Neon",
+      "target": "Glow",
+      "value": 1
+    },
+    {
+      "source": "Neon",
+      "target": "Digital",
+      "value": 1
+    },
+    {
+      "source": "Neon",
+      "target": "Cyberpunk",
+      "value": 1
+    },
+    {
+      "source": "Neon",
+      "target": "Holographic",
+      "value": 1
+    },
+    {
+      "source": "Digital",
+      "target": "Neon",
+      "value": 1
+    },
+    {
+      "source": "Pattern",
+      "target": "Etching",
+      "value": 1
+    },
+    {
+      "source": "Texture",
+      "target": "Etching",
       "value": 1
     }
   ]
