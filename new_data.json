@@ -1,0 +1,2179 @@
+{
+  "nodes": [
+    {
+      "id": "Types",
+      "name": "Clothes Types",
+      "img": "imgs/types.png",
+      "val": 4,
+      "group": "parent"
+    },
+    {
+      "id": "Concepts",
+      "name": "Concepts",
+      "val": 4,
+      "group": "parent"
+    },
+    {
+      "id": "Items",
+      "name": "Items",
+      "val": 4,
+      "group": "parent"
+    },
+    {
+      "id": "Dress",
+      "name": "Dress",
+      "img": "imgs/Types/Dress.jpg",
+      "val": 2,
+      "group": "type"
+    },
+    {
+      "id": "Hoodie",
+      "name": "Hoodie",
+      "img": "imgs/Types/Hoodie.jpg",
+      "val": 2,
+      "group": "type"
+    },
+    {
+      "id": "Jacket",
+      "name": "Jacket",
+      "img": "imgs/Types/Jacket.jpg",
+      "val": 2,
+      "group": "type"
+    },
+    {
+      "id": "Leggings",
+      "name": "Leggings",
+      "img": "imgs/Types/Leggings.jpg",
+      "val": 2,
+      "group": "type"
+    },
+    {
+      "id": "Longsleeve",
+      "name": "Long sleeve",
+      "img": "imgs/Types/Long sleeve.jpg",
+      "val": 2,
+      "group": "type"
+    },
+    {
+      "id": "Pants",
+      "name": "Pants",
+      "img": "imgs/Types/Pants.jpg",
+      "val": 2,
+      "group": "type"
+    },
+    {
+      "id": "Skirt",
+      "name": "Skirt",
+      "img": "imgs/Types/Skirt.jpg",
+      "val": 2,
+      "group": "type"
+    },
+    {
+      "id": "Socks",
+      "name": "Socks",
+      "img": "imgs/Types/Socks.jpg",
+      "val": 2,
+      "group": "type"
+    },
+    {
+      "id": "Swimwear",
+      "name": "Swimwear",
+      "img": "imgs/Types/Swimwear.jpg",
+      "val": 2,
+      "group": "type"
+    },
+    {
+      "id": "T-shirt",
+      "name": "T-shirt",
+      "img": "imgs/Types/T-shirt.jpg",
+      "val": 2,
+      "group": "type"
+    },
+    {
+      "id": "Tanktop",
+      "name": "Tank top",
+      "img": "imgs/Types/Tank top.jpg",
+      "val": 2,
+      "group": "type"
+    },
+    {
+      "id": "Ancient",
+      "name": "Ancient",
+      "img": "imgs/Concepts/Ancient.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Animals",
+      "name": "Animals",
+      "img": "imgs/Concepts/Animals.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Armor",
+      "name": "Armor",
+      "img": "imgs/Concepts/Armor.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Architecture",
+      "name": "Architecture",
+      "img": "imgs/Concepts/Architecture.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Asphalt",
+      "name": "Asphalt",
+      "img": "imgs/Concepts/Asphalt.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Batwings",
+      "name": "Bat wings",
+      "img": "imgs/Concepts/Bat wings.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Biomechanical",
+      "name": "Biomechanical",
+      "img": "imgs/Concepts/Biomechanical.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Bismuth",
+      "name": "Bismuth",
+      "img": "imgs/Concepts/Bismuth.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Bodyofrobot",
+      "name": "Body of robot",
+      "img": "imgs/Concepts/Body of robot.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Bones",
+      "name": "Bones",
+      "img": "imgs/Concepts/Bones.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Brass",
+      "name": "Brass",
+      "img": "imgs/Concepts/Brass.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Brokenglass",
+      "name": "Broken glass",
+      "img": "imgs/Concepts/Broken glass.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Carving",
+      "name": "Carving",
+      "img": "imgs/Concepts/Carving.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Ceramics",
+      "name": "Ceramics",
+      "img": "imgs/Concepts/Ceramics.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Clay",
+      "name": "Clay",
+      "img": "imgs/Concepts/Clay.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Cloud",
+      "name": "Cloud",
+      "img": "imgs/Concepts/Cloud.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Concrete",
+      "name": "Concrete",
+      "img": "imgs/Concepts/Concrete.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Cortensteel",
+      "name": "Corten steel",
+      "img": "imgs/Concepts/Corten steel.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Cortexsteel",
+      "name": "Cortex steel",
+      "img": "imgs/Concepts/Cortex steel.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "CPU",
+      "name": "CPU",
+      "img": "imgs/Concepts/CPU.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Crudeoil",
+      "name": "Crude oil",
+      "img": "imgs/Concepts/Crude oil.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Crystal",
+      "name": "Crystal",
+      "img": "imgs/Concepts/Crystal.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Cybersuit",
+      "name": "Cyber suit",
+      "img": "imgs/Concepts/Cyber suit.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Cyberpunk",
+      "name": "Cyberpunk",
+      "img": "imgs/Concepts/Cyberpunk.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Dimond",
+      "name": "Dimond",
+      "img": "imgs/Concepts/Dimond.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Elementals",
+      "name": "Elementals",
+      "img": "imgs/Concepts/Elementals.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Emptiness",
+      "name": "Emptiness",
+      "img": "imgs/Concepts/Emptiness.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Etching",
+      "name": "Etching",
+      "img": "imgs/Concepts/Etching.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Etchedmetal",
+      "name": "Etched metal",
+      "img": "imgs/Concepts/Etched metal.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Feather",
+      "name": "Feather",
+      "img": "imgs/Concepts/Feather.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Fog",
+      "name": "Fog",
+      "img": "imgs/Concepts/Fog.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Foil",
+      "name": "Foil",
+      "img": "imgs/Concepts/Foil.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Gas",
+      "name": "Gas",
+      "img": "imgs/Concepts/Gas.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Geometry",
+      "name": "Geometry",
+      "img": "imgs/Concepts/Geometry.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Glass",
+      "name": "Glass",
+      "img": "imgs/Concepts/Glass.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Glow",
+      "name": "Glow",
+      "img": "imgs/Concepts/Glow.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Glue",
+      "name": "Glue",
+      "img": "imgs/Concepts/Glue.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Gold",
+      "name": "Gold",
+      "img": "imgs/Concepts/Gold.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Graphic",
+      "name": "Graphic",
+      "img": "imgs/Concepts/Graphic.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Handicraft",
+      "name": "Handicraft",
+      "img": "imgs/Concepts/Handicraft.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Ice",
+      "name": "Ice",
+      "img": "imgs/Concepts/Ice.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Illusion",
+      "name": "Illusion",
+      "img": "imgs/Concepts/Illusion.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Insects",
+      "name": "Insects",
+      "img": "imgs/Concepts/Insects.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Jewelry",
+      "name": "Jewelry",
+      "img": "imgs/Concepts/Jewelry.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Lavalamp",
+      "name": "Lava lamp",
+      "img": "imgs/Concepts/Lava lamp.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Lava",
+      "name": "Lava",
+      "img": "imgs/Concepts/Lava.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Leaf",
+      "name": "Leaf",
+      "img": "imgs/Concepts/Leaf.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Liquid",
+      "name": "Liquid",
+      "img": "imgs/Concepts/Liquid.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Lowpoly",
+      "name": "Low poly",
+      "img": "imgs/Concepts/Low poly.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Material",
+      "name": "Material",
+      "img": "imgs/Concepts/Material.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Mist",
+      "name": "Mist",
+      "img": "imgs/Concepts/Mist.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Motherboard",
+      "name": "Motherboard",
+      "img": "imgs/Concepts/Motherboard.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Neuron",
+      "name": "Neuron",
+      "img": "imgs/Concepts/Neuron.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Paper",
+      "name": "Paper",
+      "img": "imgs/Concepts/Paper.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Partialpressuresuit",
+      "name": "Partial pressure suit",
+      "img": "imgs/Concepts/Partial pressure suit.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Pixelated",
+      "name": "Pixelated",
+      "img": "imgs/Concepts/Pixelated.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Plants",
+      "name": "Plants",
+      "img": "imgs/Concepts/Plants.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Quilling",
+      "name": "Quilling",
+      "img": "imgs/Concepts/Quilling.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Rope",
+      "name": "Rope",
+      "img": "imgs/Concepts/Rope.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Sand",
+      "name": "Sand",
+      "img": "imgs/Concepts/Sand.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Skeleton",
+      "name": "Skeleton",
+      "img": "imgs/Concepts/Skeleton.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Stone",
+      "name": "Stone",
+      "img": "imgs/Concepts/Stone.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Tiles",
+      "name": "Tiles",
+      "img": "imgs/Concepts/Tiles.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Tutu",
+      "name": "Tutu",
+      "img": "imgs/Concepts/Tutu.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "Wood",
+      "name": "Wood",
+      "img": "imgs/Concepts/Wood.jpg",
+      "val": 3,
+      "group": "concept"
+    },
+    {
+      "id": "AncientHoodie",
+      "name": "Ancient hoodie",
+      "img": "imgs/Items/AncientHoodie.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "AncientDress",
+      "name": "Ancient dress",
+      "img": "imgs/Items/AncientDress.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225513",
+      "name": "20230823225513",
+      "img": "imgs/Designs/20230823225513.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225513.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225516",
+      "name": "20230823225516",
+      "img": "imgs/Designs/20230823225516.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225516.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225520",
+      "name": "20230823225520",
+      "img": "imgs/Designs/20230823225520.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225520.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225524",
+      "name": "20230823225524",
+      "img": "imgs/Designs/20230823225524.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225524.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823223712",
+      "name": "20230823223712",
+      "img": "imgs/Designs/20230823223712.png",
+      "thmb": "imgs/Designs/Thumbnails/20230823223712.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823223726",
+      "name": "20230823223726",
+      "img": "imgs/Designs/20230823223726.png",
+      "thmb": "imgs/Designs/Thumbnails/20230823223726.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823223737",
+      "name": "20230823223737",
+      "img": "imgs/Designs/20230823223737.png",
+      "thmb": "imgs/Designs/Thumbnails/20230823223737.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823223746",
+      "name": "20230823223746",
+      "img": "imgs/Designs/20230823223746.png",
+      "thmb": "imgs/Designs/Thumbnails/20230823223746.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224716",
+      "name": "20230823224716",
+      "img": "imgs/Designs/20230823224716.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823224716.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224722",
+      "name": "20230823224722",
+      "img": "imgs/Designs/20230823224722.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823224722.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224725",
+      "name": "20230823224725",
+      "img": "imgs/Designs/20230823224725.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823224725.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224730",
+      "name": "20230823224730",
+      "img": "imgs/Designs/20230823224730.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823224730.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824144134",
+      "name": "20230824144134",
+      "img": "imgs/Designs/20230824144134.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824144134.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823223857",
+      "name": "20230823223857",
+      "img": "imgs/Designs/20230823223857.png",
+      "thmb": "imgs/Designs/Thumbnails/20230823223857.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823223906",
+      "name": "20230823223906",
+      "img": "imgs/Designs/20230823223906.png",
+      "thmb": "imgs/Designs/Thumbnails/20230823223906.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823223916",
+      "name": "20230823223916",
+      "img": "imgs/Designs/20230823223916.png",
+      "thmb": "imgs/Designs/Thumbnails/20230823223916.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823223924",
+      "name": "20230823223924",
+      "img": "imgs/Designs/20230823223924.png",
+      "thmb": "imgs/Designs/Thumbnails/20230823223924.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "lichen_hoodie",
+      "name": "lichen_hoodie",
+      "img": "imgs/Designs/lichen_hoodie.png",
+      "thmb": "imgs/Designs/Thumbnails/lichen_hoodie.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823223951",
+      "name": "20230823223951",
+      "img": "imgs/Designs/20230823223951.png",
+      "thmb": "imgs/Designs/Thumbnails/20230823223951.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224000",
+      "name": "20230823224000",
+      "img": "imgs/Designs/20230823224000.png",
+      "thmb": "imgs/Designs/Thumbnails/20230823224000.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224010",
+      "name": "20230823224010",
+      "img": "imgs/Designs/20230823224010.png",
+      "thmb": "imgs/Designs/Thumbnails/20230823224010.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224017",
+      "name": "20230823224017",
+      "img": "imgs/Designs/20230823224017.png",
+      "thmb": "imgs/Designs/Thumbnails/20230823224017.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224028",
+      "name": "20230823224028",
+      "img": "imgs/Designs/20230823224028.png",
+      "thmb": "imgs/Designs/Thumbnails/20230823224028.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224039",
+      "name": "20230823224039",
+      "img": "imgs/Designs/20230823224039.png",
+      "thmb": "imgs/Designs/Thumbnails/20230823224039.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224047",
+      "name": "20230823224047",
+      "img": "imgs/Designs/20230823224047.png",
+      "thmb": "imgs/Designs/Thumbnails/20230823224047.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224056",
+      "name": "20230823224056",
+      "img": "imgs/Designs/20230823224056.png",
+      "thmb": "imgs/Designs/Thumbnails/20230823224056.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823012527",
+      "name": "20230823012527",
+      "img": "imgs/Designs/20230823012527.png",
+      "thmb": "imgs/Designs/Thumbnails/20230823012527.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824125328",
+      "name": "20230824125328",
+      "img": "imgs/Designs/20230824125328.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824125328.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230822235840",
+      "name": "20230822235840",
+      "img": "imgs/Designs/20230822235840.png",
+      "thmb": "imgs/Designs/Thumbnails/20230822235840.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824143751",
+      "name": "20230824143751",
+      "img": "imgs/Designs/20230824143751.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824143751.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824143755",
+      "name": "20230824143755",
+      "img": "imgs/Designs/20230824143755.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824143755.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824143758",
+      "name": "20230824143758",
+      "img": "imgs/Designs/20230824143758.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824143758.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824143802.jpg",
+      "name": "20230824143802.jpg",
+      "img": "imgs/Designs/20230824143802.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824143802.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824143823",
+      "name": "20230824143823",
+      "img": "imgs/Designs/20230824143823.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824143823.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824144727",
+      "name": "20230824144727",
+      "img": "imgs/Designs/20230824144727.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824144727.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824144731",
+      "name": "20230824144731",
+      "img": "imgs/Designs/20230824144731.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824144731.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824124948",
+      "name": "20230824124948",
+      "img": "imgs/Designs/20230824124948.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824124948.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824124951",
+      "name": "20230824124951",
+      "img": "imgs/Designs/20230824124951.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824124951.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824125004",
+      "name": "20230824125004",
+      "img": "imgs/Designs/20230824125004.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824125004.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824125238",
+      "name": "20230824125238",
+      "img": "imgs/Designs/20230824125238.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824125238.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824125242",
+      "name": "20230824125242",
+      "img": "imgs/Designs/20230824125242.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824125242.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824144520",
+      "name": "20230824144520",
+      "img": "imgs/Designs/20230824144520.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824144520.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824144523",
+      "name": "20230824144523",
+      "img": "imgs/Designs/20230824144523.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824144523.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824144526",
+      "name": "20230824144526",
+      "img": "imgs/Designs/20230824144526.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824144526.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824144530",
+      "name": "20230824144530",
+      "img": "imgs/Designs/20230824144530.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824144530.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824144534",
+      "name": "20230824144534",
+      "img": "imgs/Designs/20230824144534.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824144534.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824144538",
+      "name": "20230824144538",
+      "img": "imgs/Designs/20230824144538.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824144538.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824144542",
+      "name": "20230824144542",
+      "img": "imgs/Designs/20230824144542.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824144542.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824144546",
+      "name": "20230824144546",
+      "img": "imgs/Designs/20230824144546.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824144546.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824144549",
+      "name": "20230824144549",
+      "img": "imgs/Designs/20230824144549.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824144549.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824144552",
+      "name": "20230824144552",
+      "img": "imgs/Designs/20230824144552.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824144552.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824144023",
+      "name": "20230824144023",
+      "img": "imgs/Designs/20230824144023.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824144023.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824144028",
+      "name": "20230824144028",
+      "img": "imgs/Designs/20230824144028.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824144028.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824125357",
+      "name": "20230824125357",
+      "img": "imgs/Designs/20230824125357.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824125357.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824125401",
+      "name": "20230824125401",
+      "img": "imgs/Designs/20230824125401.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824125401.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824125406",
+      "name": "20230824125406",
+      "img": "imgs/Designs/20230824125406.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824125406.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824125410",
+      "name": "20230824125410",
+      "img": "imgs/Designs/20230824125410.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824125410.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824125419",
+      "name": "20230824125419",
+      "img": "imgs/Designs/20230824125419.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824125419.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824143851",
+      "name": "20230824143851",
+      "img": "imgs/Designs/20230824143851.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824143851.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824143855",
+      "name": "20230824143855",
+      "img": "imgs/Designs/20230824143855.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824143855.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225749",
+      "name": "20230823225749",
+      "img": "imgs/Designs/20230823225749.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225749.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225752",
+      "name": "20230823225752",
+      "img": "imgs/Designs/20230823225752.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225752.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225755",
+      "name": "20230823225755",
+      "img": "imgs/Designs/20230823225755.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225755.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225802",
+      "name": "20230823225802",
+      "img": "imgs/Designs/20230823225802.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225802.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225809",
+      "name": "20230823225809",
+      "img": "imgs/Designs/20230823225809.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225809.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225819",
+      "name": "20230823225819",
+      "img": "imgs/Designs/20230823225819.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225819.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225823",
+      "name": "20230823225823",
+      "img": "imgs/Designs/20230823225823.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225823.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225827",
+      "name": "20230823225827",
+      "img": "imgs/Designs/20230823225827.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225827.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225832",
+      "name": "20230823225832",
+      "img": "imgs/Designs/20230823225832.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225832.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824144921",
+      "name": "20230824144921",
+      "img": "imgs/Designs/20230824144921.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824144921.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824143546",
+      "name": "20230824143546",
+      "img": "imgs/Designs/20230824143546.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824143546.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824143550",
+      "name": "20230824143550",
+      "img": "imgs/Designs/20230824143550.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824143550.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824143618",
+      "name": "20230824143618",
+      "img": "imgs/Designs/20230824143618.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824143618.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824143623",
+      "name": "20230824143623",
+      "img": "imgs/Designs/20230824143623.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824143623.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824143628",
+      "name": "20230824143628",
+      "img": "imgs/Designs/20230824143628.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824143628.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824143632",
+      "name": "20230824143632",
+      "img": "imgs/Designs/20230824143632.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824143632.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824143635",
+      "name": "20230824143635",
+      "img": "imgs/Designs/20230824143635.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824143635.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824143640",
+      "name": "20230824143640",
+      "img": "imgs/Designs/20230824143640.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824143640.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824143646",
+      "name": "20230824143646",
+      "img": "imgs/Designs/20230824143646.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824143646.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824125304",
+      "name": "20230824125304",
+      "img": "imgs/Designs/20230824125304.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824125304.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824144837",
+      "name": "20230824144837",
+      "img": "imgs/Designs/20230824144837.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824144837.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225210",
+      "name": "20230823225210",
+      "img": "imgs/Designs/20230823225210.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225210.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225215",
+      "name": "20230823225215",
+      "img": "imgs/Designs/20230823225215.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225215.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225221",
+      "name": "20230823225221",
+      "img": "imgs/Designs/20230823225221.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225221.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225226",
+      "name": "20230823225226",
+      "img": "imgs/Designs/20230823225226.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225226.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225231",
+      "name": "20230823225231",
+      "img": "imgs/Designs/20230823225231.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225231.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225235",
+      "name": "20230823225235",
+      "img": "imgs/Designs/20230823225235.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225235.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225251.jpg",
+      "name": "20230823225251.jpg",
+      "img": "imgs/Designs/20230823225251.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225251.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225318",
+      "name": "20230823225318",
+      "img": "imgs/Designs/20230823225318.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225318.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225324",
+      "name": "20230823225324",
+      "img": "imgs/Designs/20230823225324.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225324.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225329",
+      "name": "20230823225329",
+      "img": "imgs/Designs/20230823225329.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225329.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225333",
+      "name": "20230823225333",
+      "img": "imgs/Designs/20230823225333.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225333.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225337",
+      "name": "20230823225337",
+      "img": "imgs/Designs/20230823225337.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225337.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823225341",
+      "name": "20230823225341",
+      "img": "imgs/Designs/20230823225341.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823225341.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824125538",
+      "name": "20230824125538",
+      "img": "imgs/Designs/20230824125538.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824125538.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824125541",
+      "name": "20230824125541",
+      "img": "imgs/Designs/20230824125541.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824125541.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824125544",
+      "name": "20230824125544",
+      "img": "imgs/Designs/20230824125544.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824125544.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824125150",
+      "name": "20230824125150",
+      "img": "imgs/Designs/20230824125150.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824125150.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230824125158",
+      "name": "20230824125158",
+      "img": "imgs/Designs/20230824125158.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230824125158.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224535",
+      "name": "20230823224535",
+      "img": "imgs/Designs/20230823224535.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823224535.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224541",
+      "name": "20230823224541",
+      "img": "imgs/Designs/20230823224541.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823224541.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224546",
+      "name": "20230823224546",
+      "img": "imgs/Designs/20230823224546.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823224546.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224550",
+      "name": "20230823224550",
+      "img": "imgs/Designs/20230823224550.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823224550.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224554",
+      "name": "20230823224554",
+      "img": "imgs/Designs/20230823224554.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823224554.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224208",
+      "name": "20230823224208",
+      "img": "imgs/Designs/20230823224208.png",
+      "thmb": "imgs/Designs/Thumbnails/20230823224208.png",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224215",
+      "name": "20230823224215",
+      "img": "imgs/Designs/20230823224215.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823224215.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230823224221",
+      "name": "20230823224221",
+      "img": "imgs/Designs/20230823224221.jpg",
+      "thmb": "imgs/Designs/Thumbnails/20230823224221.jpg",
+      "val": 2,
+      "group": "item"
+    },
+    {
+      "id": "20230822184739",
+      "name": "20230822184739",
+      "img": "imgs/Designs/20230822184739.png",
+      "thmb": "imgs/Designs/Thumbnails/20230822184739.png",
+      "val": 2,
+      "group": "item"
+    }
+  ],
+  "links": [
+    {
+      "source": "Types",
+      "target": "Dress"
+    },
+    {
+      "source": "Types",
+      "target": "Hoodie"
+    },
+    {
+      "source": "Types",
+      "target": "Jacket"
+    },
+    {
+      "source": "Types",
+      "target": "Leggings"
+    },
+    {
+      "source": "Types",
+      "target": "Longsleeve"
+    },
+    {
+      "source": "Types",
+      "target": "Pants"
+    },
+    {
+      "source": "Types",
+      "target": "Skirt"
+    },
+    {
+      "source": "Types",
+      "target": "Socks"
+    },
+    {
+      "source": "Types",
+      "target": "Swimwear"
+    },
+    {
+      "source": "Types",
+      "target": "T-shirt"
+    },
+    {
+      "source": "Types",
+      "target": "Tanktop"
+    },
+    {
+      "source": "Concepts",
+      "target": "Ancient"
+    },
+    {
+      "source": "Concepts",
+      "target": "Animals"
+    },
+    {
+      "source": "Concepts",
+      "target": "Armor"
+    },
+    {
+      "source": "Concepts",
+      "target": "Architecture"
+    },
+    {
+      "source": "Concepts",
+      "target": "Asphalt"
+    },
+    {
+      "source": "Concepts",
+      "target": "Batwings"
+    },
+    {
+      "source": "Concepts",
+      "target": "Biomechanical"
+    },
+    {
+      "source": "Concepts",
+      "target": "Bismuth"
+    },
+    {
+      "source": "Concepts",
+      "target": "Bodyofrobot"
+    },
+    {
+      "source": "Concepts",
+      "target": "Bones"
+    },
+    {
+      "source": "Concepts",
+      "target": "Brass"
+    },
+    {
+      "source": "Concepts",
+      "target": "Brokenglass"
+    },
+    {
+      "source": "Concepts",
+      "target": "Carving"
+    },
+    {
+      "source": "Concepts",
+      "target": "Ceramics"
+    },
+    {
+      "source": "Concepts",
+      "target": "Clay"
+    },
+    {
+      "source": "Concepts",
+      "target": "Cloud"
+    },
+    {
+      "source": "Concepts",
+      "target": "Concrete"
+    },
+    {
+      "source": "Concepts",
+      "target": "Cortensteel"
+    },
+    {
+      "source": "Concepts",
+      "target": "Cortexsteel"
+    },
+    {
+      "source": "Concepts",
+      "target": "CPU"
+    },
+    {
+      "source": "Concepts",
+      "target": "Crudeoil"
+    },
+    {
+      "source": "Concepts",
+      "target": "Crystal"
+    },
+    {
+      "source": "Concepts",
+      "target": "Cybersuit"
+    },
+    {
+      "source": "Concepts",
+      "target": "Cyberpunk"
+    },
+    {
+      "source": "Concepts",
+      "target": "Dimond"
+    },
+    {
+      "source": "Concepts",
+      "target": "Elementals"
+    },
+    {
+      "source": "Concepts",
+      "target": "Emptiness"
+    },
+    {
+      "source": "Concepts",
+      "target": "Etching"
+    },
+    {
+      "source": "Concepts",
+      "target": "Etchedmetal"
+    },
+    {
+      "source": "Concepts",
+      "target": "Feather"
+    },
+    {
+      "source": "Concepts",
+      "target": "Fog"
+    },
+    {
+      "source": "Concepts",
+      "target": "Foil"
+    },
+    {
+      "source": "Concepts",
+      "target": "Gas"
+    },
+    {
+      "source": "Concepts",
+      "target": "Geometry"
+    },
+    {
+      "source": "Concepts",
+      "target": "Glass"
+    },
+    {
+      "source": "Concepts",
+      "target": "Glow"
+    },
+    {
+      "source": "Concepts",
+      "target": "Glue"
+    },
+    {
+      "source": "Concepts",
+      "target": "Gold"
+    },
+    {
+      "source": "Concepts",
+      "target": "Graphic"
+    },
+    {
+      "source": "Concepts",
+      "target": "Handicraft"
+    },
+    {
+      "source": "Concepts",
+      "target": "Ice"
+    },
+    {
+      "source": "Concepts",
+      "target": "Illusion"
+    },
+    {
+      "source": "Concepts",
+      "target": "Insects"
+    },
+    {
+      "source": "Concepts",
+      "target": "Jewelry"
+    },
+    {
+      "source": "Concepts",
+      "target": "Lavalamp"
+    },
+    {
+      "source": "Concepts",
+      "target": "Lava"
+    },
+    {
+      "source": "Concepts",
+      "target": "Leaf"
+    },
+    {
+      "source": "Concepts",
+      "target": "Liquid"
+    },
+    {
+      "source": "Concepts",
+      "target": "Lowpoly"
+    },
+    {
+      "source": "Concepts",
+      "target": "Material"
+    },
+    {
+      "source": "Concepts",
+      "target": "Mist"
+    },
+    {
+      "source": "Concepts",
+      "target": "Motherboard"
+    },
+    {
+      "source": "Concepts",
+      "target": "Neuron"
+    },
+    {
+      "source": "Concepts",
+      "target": "Paper"
+    },
+    {
+      "source": "Concepts",
+      "target": "Partialpressuresuit"
+    },
+    {
+      "source": "Concepts",
+      "target": "Pixelated"
+    },
+    {
+      "source": "Concepts",
+      "target": "Plants"
+    },
+    {
+      "source": "Concepts",
+      "target": "Quilling"
+    },
+    {
+      "source": "Concepts",
+      "target": "Rope"
+    },
+    {
+      "source": "Concepts",
+      "target": "Sand"
+    },
+    {
+      "source": "Concepts",
+      "target": "Skeleton"
+    },
+    {
+      "source": "Concepts",
+      "target": "Stone"
+    },
+    {
+      "source": "Concepts",
+      "target": "Tiles"
+    },
+    {
+      "source": "Concepts",
+      "target": "Tutu"
+    },
+    {
+      "source": "Concepts",
+      "target": "Wood"
+    },
+    {
+      "source": "Items",
+      "target": "AncientHoodie"
+    },
+    {
+      "source": "Items",
+      "target": "AncientDress"
+    },
+    {
+      "source": "AncientHoodie",
+      "target": "20230823225513"
+    },
+    {
+      "source": "AncientHoodie",
+      "target": "20230823225516"
+    },
+    {
+      "source": "AncientHoodie",
+      "target": "20230823225520"
+    },
+    {
+      "source": "AncientHoodie",
+      "target": "20230823225524"
+    },
+    {
+      "source": "Angelhoodie",
+      "target": "20230823223712"
+    },
+    {
+      "source": "Angelhoodie",
+      "target": "20230823223726"
+    },
+    {
+      "source": "Angelhoodie",
+      "target": "20230823223737"
+    },
+    {
+      "source": "Angelhoodie",
+      "target": "20230823223746"
+    },
+    {
+      "source": "Armorhoodie",
+      "target": "20230823224716"
+    },
+    {
+      "source": "Armorhoodie",
+      "target": "20230823224722"
+    },
+    {
+      "source": "Armorhoodie",
+      "target": "20230823224725"
+    },
+    {
+      "source": "Armorhoodie",
+      "target": "20230823224730"
+    },
+    {
+      "source": "Bananahoodie",
+      "target": "20230824144134"
+    },
+    {
+      "source": "Biomechanicalhoodie",
+      "target": "20230823223857"
+    },
+    {
+      "source": "Biomechanicalhoodie",
+      "target": "20230823223906"
+    },
+    {
+      "source": "Biomechanicalhoodie",
+      "target": "20230823223916"
+    },
+    {
+      "source": "Biomechanicalhoodie",
+      "target": "20230823223924"
+    },
+    {
+      "source": "Biomechanicallichenhoodie",
+      "target": "lichen_hoodie"
+    },
+    {
+      "source": "Biomechanicallichenhoodie",
+      "target": "20230823223951"
+    },
+    {
+      "source": "Biomechanicallichenhoodie",
+      "target": "20230823224000"
+    },
+    {
+      "source": "Biomechanicallichenhoodie",
+      "target": "20230823224010"
+    },
+    {
+      "source": "Biomechanicallichenhoodie",
+      "target": "20230823224017"
+    },
+    {
+      "source": "Biomechanicallichenhoodie",
+      "target": "20230823224028"
+    },
+    {
+      "source": "Biomechanicallichenhoodie",
+      "target": "20230823224039"
+    },
+    {
+      "source": "Biomechanicallichenhoodie",
+      "target": "20230823224047"
+    },
+    {
+      "source": "Biomechanicallichenhoodie",
+      "target": "20230823224056"
+    },
+    {
+      "source": "Biomechanicalt-shirt",
+      "target": "20230823012527"
+    },
+    {
+      "source": "Cloudhoodie",
+      "target": "20230824125328"
+    },
+    {
+      "source": "Concretet-shirt",
+      "target": "20230822235840"
+    },
+    {
+      "source": "Etchedwood",
+      "target": "20230824143751"
+    },
+    {
+      "source": "Etchedwood",
+      "target": "20230824143755"
+    },
+    {
+      "source": "Etchedwood",
+      "target": "20230824143758"
+    },
+    {
+      "source": "Etchedwood",
+      "target": "20230824143802.jpg"
+    },
+    {
+      "source": "Etchedwood",
+      "target": "20230824143823"
+    },
+    {
+      "source": "Fishhoodie",
+      "target": "20230824144727"
+    },
+    {
+      "source": "Fishhoodie",
+      "target": "20230824144731"
+    },
+    {
+      "source": "Icehoodie",
+      "target": "20230824124948"
+    },
+    {
+      "source": "Icehoodie",
+      "target": "20230824124951"
+    },
+    {
+      "source": "Icehoodie",
+      "target": "20230824125004"
+    },
+    {
+      "source": "Lavahoodie",
+      "target": "20230824125238"
+    },
+    {
+      "source": "Lavahoodie",
+      "target": "20230824125242"
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "20230824144520"
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "20230824144523"
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "20230824144526"
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "20230824144530"
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "20230824144534"
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "20230824144538"
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "20230824144542"
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "20230824144546"
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "20230824144549"
+    },
+    {
+      "source": "Lowpolyhoodie",
+      "target": "20230824144552"
+    },
+    {
+      "source": "Mushroomhoodie",
+      "target": "20230824144023"
+    },
+    {
+      "source": "Mushroomhoodie",
+      "target": "20230824144028"
+    },
+    {
+      "source": "Paperhoodie",
+      "target": "20230824125357"
+    },
+    {
+      "source": "Paperhoodie",
+      "target": "20230824125401"
+    },
+    {
+      "source": "Paperhoodie",
+      "target": "20230824125406"
+    },
+    {
+      "source": "Paperhoodie",
+      "target": "20230824125410"
+    },
+    {
+      "source": "Paperhoodie",
+      "target": "20230824125419"
+    },
+    {
+      "source": "Plantshoodie",
+      "target": "20230824143851"
+    },
+    {
+      "source": "Plantshoodie",
+      "target": "20230824143855"
+    },
+    {
+      "source": "Quillinghoodie",
+      "target": "20230823225749"
+    },
+    {
+      "source": "Quillinghoodie",
+      "target": "20230823225752"
+    },
+    {
+      "source": "Quillinghoodie",
+      "target": "20230823225755"
+    },
+    {
+      "source": "Quillinghoodie",
+      "target": "20230823225802"
+    },
+    {
+      "source": "Quillinghoodie",
+      "target": "20230823225809"
+    },
+    {
+      "source": "Quillinghoodie",
+      "target": "20230823225819"
+    },
+    {
+      "source": "Quillinghoodie",
+      "target": "20230823225823"
+    },
+    {
+      "source": "Quillinghoodie",
+      "target": "20230823225827"
+    },
+    {
+      "source": "Quillinghoodie",
+      "target": "20230823225832"
+    },
+    {
+      "source": "Rabbithoodie",
+      "target": "20230824144921"
+    },
+    {
+      "source": "Ropehoodie",
+      "target": "20230824143546"
+    },
+    {
+      "source": "Ropehoodie",
+      "target": "20230824143550"
+    },
+    {
+      "source": "Ropehoodie",
+      "target": "20230824143618"
+    },
+    {
+      "source": "Ropehoodie",
+      "target": "20230824143623"
+    },
+    {
+      "source": "Ropehoodie",
+      "target": "20230824143628"
+    },
+    {
+      "source": "Ropehoodie",
+      "target": "20230824143632"
+    },
+    {
+      "source": "Ropehoodie",
+      "target": "20230824143635"
+    },
+    {
+      "source": "Ropehoodie",
+      "target": "20230824143640"
+    },
+    {
+      "source": "Ropehoodie",
+      "target": "20230824143646"
+    },
+    {
+      "source": "Sandhoodie",
+      "target": "20230824125304"
+    },
+    {
+      "source": "Sheephoodie",
+      "target": "20230824144837"
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "20230823225210"
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "20230823225215"
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "20230823225221"
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "20230823225226"
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "20230823225231"
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "20230823225235"
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "20230823225251.jpg"
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "20230823225318"
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "20230823225324"
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "20230823225329"
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "20230823225333"
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "20230823225337"
+    },
+    {
+      "source": "Skeletonhoodie",
+      "target": "20230823225341"
+    },
+    {
+      "source": "Spikedhoodie",
+      "target": "20230824125538"
+    },
+    {
+      "source": "Spikedhoodie",
+      "target": "20230824125541"
+    },
+    {
+      "source": "Spikedhoodie",
+      "target": "20230824125544"
+    },
+    {
+      "source": "Stonehoodie",
+      "target": "20230824125150"
+    },
+    {
+      "source": "Stonehoodie",
+      "target": "20230824125158"
+    },
+    {
+      "source": "Tileshoodie",
+      "target": "20230823224535"
+    },
+    {
+      "source": "Tileshoodie",
+      "target": "20230823224541"
+    },
+    {
+      "source": "Tileshoodie",
+      "target": "20230823224546"
+    },
+    {
+      "source": "Tileshoodie",
+      "target": "20230823224550"
+    },
+    {
+      "source": "Tileshoodie",
+      "target": "20230823224554"
+    },
+    {
+      "source": "Tutuhoodie",
+      "target": "20230823224208"
+    },
+    {
+      "source": "Tutuhoodie",
+      "target": "20230823224215"
+    },
+    {
+      "source": "Tutuhoodie",
+      "target": "20230823224221"
+    },
+    {
+      "source": "Woodcarvinghoodie",
+      "target": "20230822184739"
+    }
+  ]
+}
